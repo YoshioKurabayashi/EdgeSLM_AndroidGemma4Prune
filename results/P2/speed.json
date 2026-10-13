@@ -1,0 +1,26 @@
+{
+ "17": {
+  "run_ms_median": 33.0037499666214,
+  "prep_ms_median": 6.287031531333923,
+  "total_ms_median": 39.72179698944092,
+  "context_mib": 472.8765869140625,
+  "backend": "QNN HTP - EPContext - all nodes",
+  "strict": true
+ },
+ "26": {
+  "run_ms_median": 72.18903648853302,
+  "prep_ms_median": 26.209166407585144,
+  "total_ms_median": 103.6628909111023,
+  "context_mib": 873.1416168212891,
+  "backend": "QNN HTP - EPContext - all nodes",
+  "strict": true
+ },
+ "35": {
+  "run_ms_median": 88.83041644096375,
+  "prep_ms_median": 26.97236955165863,
+  "total_ms_median": 117.31703102588654,
+  "context_mib": 1273.3406600952148,
+  "backend": "QNN HTP - EPContext - all nodes",
+  "strict": true
+ }
+}

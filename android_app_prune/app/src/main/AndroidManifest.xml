@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Gemma4 ヘッド分類（高速）（org.edgeslm.gemma4headfast）── 改善版 B の分類アプリ（2026-09-28）。
+  改善前の「Gemma4 ヘッド分類」（org.edgeslm.gemma4head、android_app/）を複製し、分類専用のまとめ読みグラフ（64 トークンを 1 回で読む）を
+  使うようにした。改善前のアプリはそのまま残す（端末の置き場も別）。設計: DoC/設計書_B_分類専用のまとめ読みグラフ.md の 7 節
+  以下は改善前のアプリの説明（複製元）:
+  Gemma4 ヘッド分類（org.edgeslm.gemma4head）── EdgeSLM_AndroidGemma4Head の G2・G3 専用アプリ。
+  EdgeSLM_AndroidGemma4 のアプリ（org.edgeslm.gemma4「Gemma4 検証」）を複製し、applicationId と表示名を変えた。
+  別アプリなので端末上のファイル（/sdcard/Android/data/org.edgeslm.gemma4head/files）も別になり、元のアプリには触れない。
+  設計: DoC/設計書_G2_hの出力を持つcontext_binary.md の 3.5 節
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 元のアプリと同じ（RunnerService を Foreground Service として動かすため） -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 宣言しないと RunnerService の PARTIAL_WAKE_LOCK が SecurityException で落ちる（元のアプリで確認済み） -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:label="Gemma4 層削減お試し"
+        android:allowBackup="false"
+        android:supportsRtl="false">
+
+        <!--
+          ★これが無いと NPU は使えない（Android 12+ で vendor の FastRPC ライブラリに届かない。
+            症状は QNN_DEVICE_ERROR_INVALID_CONFIG。EdgeSLM_AndroidGemma4 で確認済み）
+        -->
+        <uses-native-library android:name="libcdsprpc.so" android:required="false" />
+        <uses-native-library android:name="libadsprpc.so" android:required="false" />
+
+        <!--
+          分類の画面（G3）。ランチャーの入口はこれだけ。
+          発話を入れる → Gemma 4 E2B（h 付き、NPU）で h を取る → 分類ヘッド（CPU）で判定を表示する。
+          ★ほかの job と同時にモデルを開かない（1 プロセスの NPU 上限 約 1,710MiB、モデルは約 1,467MiB）。
+            g2_device.py は job の前に am force-stop する。
+        -->
+        <activity
+            android:name=".ClassifyActivity"
+            android:exported="true"
+            android:label="Gemma4 層削減お試し"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|density|fontScale|locale|layoutDirection"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          検証用の入口（元のアプリと同じ。UI なし）。adb の am start で job を渡す（G2 の probe・memprobe・generate_kv）。
+          インストール直後の stopped 状態から抜ける入口と、端末のフォルダ（models・jobs・out・head・tokenizer）を作る役も持つ。
+        -->
+        <activity
+            android:name=".RunnerActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="org.edgeslm.demo.RUN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- exported=true は adb（shell uid）から起動するため。検証用で一般配布しない -->
+        <service
+            android:name=".RunnerService"
+            android:exported="true"
+            android:foregroundServiceType="dataSync" />
+    </application>
+</manifest>

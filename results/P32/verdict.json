@@ -1,0 +1,2244 @@
+{
+ "md5": {
+  "評価セット v9": "80f51f90d247f5a479b216de0d2f38fc",
+  "p21_rules.py": "8d74b163767c81df036d74142d9fc7ad",
+  "p23_arguments.py": "f3e6afe7c86c98a191115a505b37f681",
+  "p26_arguments.py": "d88f09926c802fa8f945a31c3bfc4b64",
+  "p29_scope.py": "a7a13896e6785a0b1700728d86b6225f",
+  "p30_scope.py": "30768b9bb46e933d5b6514ca0b50e206",
+  "p30_words.py": "9e19baa3a66c4b7b1e994e518a269a73",
+  "p31_scope.py": "cbab5b13536d717f4336cd65c65c3dc6",
+  "p31_arguments.py": "411e0c9686019b6068a4d49102035922",
+  "p31_rules.py": "17013f0b070da1991649694f0f648752"
+ },
+ "fixed_changed": [],
+ "seed": {
+  "17": {
+   "best": 17,
+   "stat": {
+    "7": {
+     "cover": 0.905982905982906,
+     "acc": 0.8717948717948718,
+     "rows": 234
+    },
+    "17": {
+     "cover": 0.9444444444444444,
+     "acc": 0.8888888888888888,
+     "rows": 234
+    },
+    "29": {
+     "cover": 0.9444444444444444,
+     "acc": 0.8803418803418803,
+     "rows": 234
+    }
+   }
+  },
+  "26": {
+   "best": 29,
+   "stat": {
+    "7": {
+     "cover": 0.8333333333333334,
+     "acc": 0.8632478632478633,
+     "rows": 234
+    },
+    "17": {
+     "cover": 0.9358974358974359,
+     "acc": 0.8888888888888888,
+     "rows": 234
+    },
+    "29": {
+     "cover": 0.9401709401709402,
+     "acc": 0.8717948717948718,
+     "rows": 234
+    }
+   }
+  }
+ },
+ "kpi": {
+  "17|本命: P31・seed 17（S1）": {
+   "e2e": {
+    "mean": 0.9533333333333334,
+    "min": 0.9533333333333334,
+    "max": 0.9533333333333334
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "severe": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.03142857142857143,
+    "min": 0.03142857142857143,
+    "max": 0.03142857142857143
+   },
+   "normal": {
+    "mean": 0.04666666666666667,
+    "min": 0.04666666666666667,
+    "max": 0.04666666666666667
+   },
+   "first": {
+    "mean": 0.89,
+    "min": 0.89,
+    "max": 0.89
+   },
+   "known_refused_n": {
+    "mean": 3.0,
+    "min": 3.0,
+    "max": 3.0
+   },
+   "wrong_exec": 2.0,
+   "e2e_value": 0.9500000000000001,
+   "severe_value_n": 2.0,
+   "severe_value": 0.0033333333333333335,
+   "wrong_rows": [
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "17|本命の構成・seed 3 つの平均": {
+   "e2e": {
+    "mean": 0.9533333333333333,
+    "min": 0.95,
+    "max": 0.9566666666666667
+   },
+   "severe_n": {
+    "mean": 0.6666666666666666,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "severe": {
+    "mean": 0.0011111111111111111,
+    "min": 0.0,
+    "max": 0.0016666666666666668
+   },
+   "over": {
+    "mean": 0.03238095238095238,
+    "min": 0.02857142857142857,
+    "max": 0.037142857142857144
+   },
+   "normal": {
+    "mean": 0.04555555555555555,
+    "min": 0.041666666666666664,
+    "max": 0.04833333333333333
+   },
+   "first": {
+    "mean": 0.8894444444444444,
+    "min": 0.885,
+    "max": 0.8933333333333333
+   },
+   "known_refused_n": {
+    "mean": 2.3333333333333335,
+    "min": 2.0,
+    "max": 3.0
+   },
+   "wrong_exec": 2.0,
+   "e2e_value": 0.95,
+   "severe_value_n": 2.6666666666666665,
+   "severe_value": 0.0044444444444444444,
+   "wrong_rows": [
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "17|比べる相手 1: P28 の構成・seed 17": {
+   "e2e": {
+    "mean": 0.92,
+    "min": 0.92,
+    "max": 0.92
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "severe": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.037142857142857144,
+    "min": 0.037142857142857144,
+    "max": 0.037142857142857144
+   },
+   "normal": {
+    "mean": 0.08,
+    "min": 0.08,
+    "max": 0.08
+   },
+   "first": {
+    "mean": 0.8516666666666667,
+    "min": 0.8516666666666667,
+    "max": 0.8516666666666667
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 4.0,
+   "e2e_value": 0.9133333333333333,
+   "severe_value_n": 4.0,
+   "severe_value": 0.006666666666666667,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 1.0
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "17|比べる相手 1: P28 の構成・seed 3 つの平均": {
+   "e2e": {
+    "mean": 0.9211111111111112,
+    "min": 0.92,
+    "max": 0.9233333333333333
+   },
+   "severe_n": {
+    "mean": 0.6666666666666666,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "severe": {
+    "mean": 0.0011111111111111111,
+    "min": 0.0,
+    "max": 0.0016666666666666668
+   },
+   "over": {
+    "mean": 0.0380952380952381,
+    "min": 0.03428571428571429,
+    "max": 0.04285714285714286
+   },
+   "normal": {
+    "mean": 0.07777777777777778,
+    "min": 0.075,
+    "max": 0.08
+   },
+   "first": {
+    "mean": 0.8527777777777779,
+    "min": 0.85,
+    "max": 0.8566666666666667
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 4.0,
+   "e2e_value": 0.9144444444444445,
+   "severe_value_n": 4.666666666666667,
+   "severe_value": 0.007777777777777778,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 1.0
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "17|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+   "e2e": {
+    "mean": 0.9216666666666666,
+    "min": 0.9216666666666666,
+    "max": 0.9216666666666666
+   },
+   "severe_n": {
+    "mean": 2.0,
+    "min": 2.0,
+    "max": 2.0
+   },
+   "severe": {
+    "mean": 0.0033333333333333335,
+    "min": 0.0033333333333333335,
+    "max": 0.0033333333333333335
+   },
+   "over": {
+    "mean": 0.04,
+    "min": 0.04,
+    "max": 0.04
+   },
+   "normal": {
+    "mean": 0.075,
+    "min": 0.075,
+    "max": 0.075
+   },
+   "first": {
+    "mean": 0.8533333333333334,
+    "min": 0.8533333333333334,
+    "max": 0.8533333333333334
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 4.0,
+   "e2e_value": 0.9149999999999999,
+   "severe_value_n": 6.0,
+   "severe_value": 0.01,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 1.0
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "26|本命: P31・seed 29（S1）": {
+   "e2e": {
+    "mean": 0.9616666666666667,
+    "min": 0.9616666666666667,
+    "max": 0.9616666666666667
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "severe": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.03142857142857143,
+    "min": 0.03142857142857143,
+    "max": 0.03142857142857143
+   },
+   "normal": {
+    "mean": 0.03833333333333333,
+    "min": 0.03833333333333333,
+    "max": 0.03833333333333333
+   },
+   "first": {
+    "mean": 0.9,
+    "min": 0.9,
+    "max": 0.9
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 2.0,
+   "e2e_value": 0.9583333333333334,
+   "severe_value_n": 2.0,
+   "severe_value": 0.0033333333333333335,
+   "wrong_rows": [
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "26|本命の構成・seed 3 つの平均": {
+   "e2e": {
+    "mean": 0.9622222222222222,
+    "min": 0.9616666666666667,
+    "max": 0.9633333333333334
+   },
+   "severe_n": {
+    "mean": 0.3333333333333333,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "severe": {
+    "mean": 0.0005555555555555556,
+    "min": 0.0,
+    "max": 0.0016666666666666668
+   },
+   "over": {
+    "mean": 0.0561904761904762,
+    "min": 0.025714285714285714,
+    "max": 0.11142857142857143
+   },
+   "normal": {
+    "mean": 0.03722222222222222,
+    "min": 0.035,
+    "max": 0.03833333333333333
+   },
+   "first": {
+    "mean": 0.8816666666666667,
+    "min": 0.845,
+    "max": 0.9
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 2.0,
+   "e2e_value": 0.9588888888888889,
+   "severe_value_n": 2.3333333333333335,
+   "severe_value": 0.003888888888888889,
+   "wrong_rows": [
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "26|比べる相手 1: P28 の構成・seed 29": {
+   "e2e": {
+    "mean": 0.9283333333333333,
+    "min": 0.9283333333333333,
+    "max": 0.9283333333333333
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "severe": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.037142857142857144,
+    "min": 0.037142857142857144,
+    "max": 0.037142857142857144
+   },
+   "normal": {
+    "mean": 0.07166666666666667,
+    "min": 0.07166666666666667,
+    "max": 0.07166666666666667
+   },
+   "first": {
+    "mean": 0.86,
+    "min": 0.86,
+    "max": 0.86
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 4.0,
+   "e2e_value": 0.9216666666666666,
+   "severe_value_n": 4.0,
+   "severe_value": 0.006666666666666667,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 1.0
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "26|比べる相手 1: P28 の構成・seed 3 つの平均": {
+   "e2e": {
+    "mean": 0.9333333333333332,
+    "min": 0.9283333333333333,
+    "max": 0.94
+   },
+   "severe_n": {
+    "mean": 0.3333333333333333,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "severe": {
+    "mean": 0.0005555555555555556,
+    "min": 0.0,
+    "max": 0.0016666666666666668
+   },
+   "over": {
+    "mean": 0.06095238095238095,
+    "min": 0.03142857142857143,
+    "max": 0.11428571428571428
+   },
+   "normal": {
+    "mean": 0.0661111111111111,
+    "min": 0.06,
+    "max": 0.07166666666666667
+   },
+   "first": {
+    "mean": 0.8477777777777776,
+    "min": 0.82,
+    "max": 0.8633333333333333
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 3.666666666666667,
+   "e2e_value": 0.9272222222222222,
+   "severe_value_n": 4.0,
+   "severe_value": 0.006666666666666667,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 0.67
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  },
+  "26|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+   "e2e": {
+    "mean": 0.925,
+    "min": 0.925,
+    "max": 0.925
+   },
+   "severe_n": {
+    "mean": 2.0,
+    "min": 2.0,
+    "max": 2.0
+   },
+   "severe": {
+    "mean": 0.0033333333333333335,
+    "min": 0.0033333333333333335,
+    "max": 0.0033333333333333335
+   },
+   "over": {
+    "mean": 0.04,
+    "min": 0.04,
+    "max": 0.04
+   },
+   "normal": {
+    "mean": 0.07166666666666667,
+    "min": 0.07166666666666667,
+    "max": 0.07166666666666667
+   },
+   "first": {
+    "mean": 0.855,
+    "min": 0.855,
+    "max": 0.855
+   },
+   "known_refused_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "wrong_exec": 4.0,
+   "e2e_value": 0.9183333333333333,
+   "severe_value_n": 6.0,
+   "severe_value": 0.01,
+   "wrong_rows": [
+    {
+     "utterance": "電話で呼ばれて実家へ向かうから案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"呼ばれて実家\"}",
+     "label": "set:実家",
+     "share": 1.0
+    },
+    {
+     "utterance": "サンルーフの雨漏りで販売店まで案内して",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"set\", \"destination\": \"サンルーフの雨漏りで販売店\"}",
+     "label": "set:販売店",
+     "share": 1.0
+    },
+    {
+     "utterance": "曲をシャッフルしてください",
+     "tool": "control_media",
+     "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "label": "play|ASK",
+     "share": 1.0
+    },
+    {
+     "utterance": "行く途中にコンビニへ寄っていきたい",
+     "tool": "set_navigation",
+     "got": "{\"action\": \"add_waypoint\", \"destination\": \"行く途中にコンビニ\"}",
+     "label": "way:コンビニ",
+     "share": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": {
+  "17|本命: P31・seed 17（S1）": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9500000000000001,
+    "target": "0.95 以上",
+    "ci": "0.930〜0.965",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.0033333333333333335,
+    "target": "0.01 以下",
+    "ci": "0.001〜0.012",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.03142857142857143,
+    "target": "0.05 以下",
+    "ci": "0.018〜0.055",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.04666666666666667,
+    "target": "0.03 以下",
+    "ci": "0.032〜0.067",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ],
+  "17|比べる相手 1: P28 の構成・seed 17": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9133333333333333,
+    "target": "0.95 以上",
+    "ci": "0.888〜0.933",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.006666666666666667,
+    "target": "0.01 以下",
+    "ci": "0.003〜0.017",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.037142857142857144,
+    "target": "0.05 以下",
+    "ci": "0.022〜0.063",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.08,
+    "target": "0.03 以下",
+    "ci": "0.061〜0.104",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ],
+  "17|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9149999999999999,
+    "target": "0.95 以上",
+    "ci": "0.890〜0.935",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.01,
+    "target": "0.01 以下",
+    "ci": "0.005〜0.022",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.04,
+    "target": "0.05 以下",
+    "ci": "0.024〜0.066",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.075,
+    "target": "0.03 以下",
+    "ci": "0.057〜0.099",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ],
+  "26|本命: P31・seed 29（S1）": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9583333333333334,
+    "target": "0.95 以上",
+    "ci": "0.939〜0.972",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.0033333333333333335,
+    "target": "0.01 以下",
+    "ci": "0.001〜0.012",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.03142857142857143,
+    "target": "0.05 以下",
+    "ci": "0.018〜0.055",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.03833333333333333,
+    "target": "0.03 以下",
+    "ci": "0.026〜0.057",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ],
+  "26|比べる相手 1: P28 の構成・seed 29": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9216666666666666,
+    "target": "0.95 以上",
+    "ci": "0.897〜0.941",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.006666666666666667,
+    "target": "0.01 以下",
+    "ci": "0.003〜0.017",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.037142857142857144,
+    "target": "0.05 以下",
+    "ci": "0.022〜0.063",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.07166666666666667,
+    "target": "0.03 以下",
+    "ci": "0.054〜0.095",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ],
+  "26|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": [
+   {
+    "kpi": "EtoE の成功",
+    "key": "e2e",
+    "value": 0.9183333333333333,
+    "target": "0.95 以上",
+    "ci": "0.894〜0.938",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   },
+   {
+    "kpi": "重大な誤りの割合",
+    "key": "severe",
+    "value": 0.01,
+    "target": "0.01 以下",
+    "ci": "0.005〜0.022",
+    "rows": 600,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "不要な聞き返し",
+    "key": "over",
+    "value": 0.04,
+    "target": "0.05 以下",
+    "ci": "0.024〜0.066",
+    "rows": 350,
+    "point": true,
+    "sure": false
+   },
+   {
+    "kpi": "通常の誤り",
+    "key": "normal",
+    "value": 0.07166666666666667,
+    "target": "0.03 以下",
+    "ci": "0.054〜0.095",
+    "rows": 600,
+    "point": false,
+    "sure": false
+   }
+  ]
+ },
+ "stops": {
+  "17|本命: P31・seed 17（S1）": [
+   4.0,
+   0,
+   0,
+   3.0,
+   4.0,
+   0,
+   3.0
+  ],
+  "17|本命の構成・seed 3 つの平均": [
+   3.3333333333333335,
+   0,
+   0,
+   3.666666666666667,
+   4.333333333333333,
+   0,
+   2.3333333333333335
+  ],
+  "17|比べる相手 1: P28 の構成・seed 17": [
+   6.0,
+   0,
+   0,
+   3.0,
+   4.0,
+   0,
+   0
+  ],
+  "17|比べる相手 1: P28 の構成・seed 3 つの平均": [
+   5.333333333333333,
+   0,
+   0,
+   3.666666666666667,
+   4.333333333333333,
+   0,
+   0
+  ],
+  "17|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": [
+   9.0,
+   0,
+   0,
+   1.0,
+   4.0,
+   0,
+   0
+  ],
+  "26|本命: P31・seed 29（S1）": [
+   3.0,
+   0,
+   1.0,
+   2.0,
+   5.0,
+   0,
+   0
+  ],
+  "26|本命の構成・seed 3 つの平均": [
+   2.666666666666667,
+   0,
+   0.3333333333333333,
+   12.333333333333337,
+   4.333333333333333,
+   0,
+   0
+  ],
+  "26|比べる相手 1: P28 の構成・seed 29": [
+   5.0,
+   0,
+   1.0,
+   2.0,
+   5.0,
+   0,
+   0
+  ],
+  "26|比べる相手 1: P28 の構成・seed 3 つの平均": [
+   4.666666666666666,
+   0,
+   0.3333333333333333,
+   12.000000000000004,
+   4.333333333333333,
+   0,
+   0
+  ],
+  "26|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": [
+   8.0,
+   0,
+   0,
+   1.0,
+   5.0,
+   0,
+   0
+  ]
+ },
+ "severe": {
+  "17|本命: P31・seed 17（S1）": {
+   "wrong_value": 2.0
+  },
+  "17|本命の構成・seed 3 つの平均": {
+   "G": 0.6666666666666666,
+   "wrong_value": 2.0
+  },
+  "17|比べる相手 1: P28 の構成・seed 17": {
+   "wrong_value": 4.0
+  },
+  "17|比べる相手 1: P28 の構成・seed 3 つの平均": {
+   "G": 0.6666666666666666,
+   "wrong_value": 4.0
+  },
+  "17|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+   "H": 1.0,
+   "G": 1.0,
+   "wrong_value": 4.0
+  },
+  "26|本命: P31・seed 29（S1）": {
+   "wrong_value": 2.0
+  },
+  "26|本命の構成・seed 3 つの平均": {
+   "K": 0.3333333333333333,
+   "wrong_value": 2.0
+  },
+  "26|比べる相手 1: P28 の構成・seed 29": {
+   "wrong_value": 4.0
+  },
+  "26|比べる相手 1: P28 の構成・seed 3 つの平均": {
+   "K": 0.3333333333333333,
+   "wrong_value": 3.666666666666667
+  },
+  "26|比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+   "G": 2.0,
+   "wrong_value": 4.0
+  }
+ },
+ "forms": {
+  "17": {
+   "本命: P31・seed 17（S1）": {
+    "F|正解": 50.0,
+    "G|正解": 99.0,
+    "G|通常": 1.0,
+    "H 学習にある機能|回復可能": 13.0,
+    "H 学習にある機能|正解": 57.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 4.0,
+    "H 学習に無い機能・問い合わせ|正解": 20.0,
+    "H 学習に無い機能・問い合わせ|通常": 16.0,
+    "H 学習に無い機能・操作|回復可能": 10.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 2.0,
+    "K|回復可能": 2.0,
+    "K|正解": 115.0,
+    "K|通常": 3.0,
+    "N|正解": 165.0,
+    "N|回復可能": 9.0,
+    "N|通常": 6.0
+   },
+   "比べる相手 1: P28 の構成・seed 17": {
+    "F|正解": 50.0,
+    "G|正解": 99.0,
+    "G|通常": 1.0,
+    "H 学習にある機能|回復可能": 14.0,
+    "H 学習にある機能|正解": 56.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 4.0,
+    "H 学習に無い機能・問い合わせ|通常": 36.0,
+    "H 学習に無い機能・操作|回復可能": 10.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 2.0,
+    "K|回復可能": 4.0,
+    "K|正解": 113.0,
+    "K|通常": 3.0,
+    "N|正解": 165.0,
+    "N|回復可能": 9.0,
+    "N|通常": 6.0
+   },
+   "比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+    "F|正解": 50.0,
+    "G|正解": 98.0,
+    "G|通常": 1.0,
+    "G|重大": 1.0,
+    "H 学習にある機能|回復可能": 14.0,
+    "H 学習にある機能|正解": 56.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 3.0,
+    "H 学習に無い機能・問い合わせ|通常": 37.0,
+    "H 学習に無い機能・操作|回復可能": 10.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 1.0,
+    "H 学習に無い機能・操作|重大": 1.0,
+    "K|回復可能": 6.0,
+    "K|正解": 111.0,
+    "K|通常": 3.0,
+    "N|正解": 169.0,
+    "N|回復可能": 8.0,
+    "N|通常": 3.0
+   }
+  },
+  "26": {
+   "本命: P31・seed 29（S1）": {
+    "F|回復可能": 1.0,
+    "F|正解": 49.0,
+    "G|正解": 99.0,
+    "G|通常": 1.0,
+    "H 学習にある機能|回復可能": 13.0,
+    "H 学習にある機能|正解": 57.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 2.0,
+    "H 学習に無い機能・問い合わせ|正解": 21.0,
+    "H 学習に無い機能・問い合わせ|通常": 17.0,
+    "H 学習に無い機能・操作|回復可能": 11.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 1.0,
+    "K|正解": 117.0,
+    "K|通常": 1.0,
+    "K|回復可能": 2.0,
+    "N|正解": 169.0,
+    "N|回復可能": 8.0,
+    "N|通常": 3.0
+   },
+   "比べる相手 1: P28 の構成・seed 29": {
+    "F|回復可能": 1.0,
+    "F|正解": 49.0,
+    "G|正解": 99.0,
+    "G|通常": 1.0,
+    "H 学習にある機能|回復可能": 14.0,
+    "H 学習にある機能|正解": 56.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 3.0,
+    "H 学習に無い機能・問い合わせ|通常": 37.0,
+    "H 学習に無い機能・操作|回復可能": 11.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 1.0,
+    "K|正解": 115.0,
+    "K|通常": 1.0,
+    "K|回復可能": 4.0,
+    "N|正解": 169.0,
+    "N|回復可能": 8.0,
+    "N|通常": 3.0
+   },
+   "比べる相手 2: いまのアプリ（1,584 行・P23・seed 7）": {
+    "F|正解": 50.0,
+    "G|正解": 95.0,
+    "G|通常": 3.0,
+    "G|重大": 2.0,
+    "H 学習にある機能|回復可能": 14.0,
+    "H 学習にある機能|正解": 56.0,
+    "H 学習に無い機能・問い合わせ|回復可能": 4.0,
+    "H 学習に無い機能・問い合わせ|通常": 36.0,
+    "H 学習に無い機能・操作|回復可能": 10.0,
+    "H 学習に無い機能・操作|正解": 28.0,
+    "H 学習に無い機能・操作|通常": 2.0,
+    "K|正解": 115.0,
+    "K|回復可能": 5.0,
+    "N|正解": 169.0,
+    "N|回復可能": 9.0,
+    "N|通常": 2.0
+   }
+  }
+ },
+ "detail": {
+  "17": {
+   "severe_rows": [],
+   "normal_rows": [
+    {
+     "category": "H",
+     "utterance": "オリジナルの曲を作って",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "今の気分に合う曲を作曲して",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "近くのガソリンの値段を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "レギュラーの価格を比べて",
+     "outcome": "実行（get_vehicle_status）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "富士山の高さを教えて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "世界一長い川を調べて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "今日は何の日か教えて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "百年前の今日に起きたことを調べて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "駐車場の空き状況を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "車検にいくらかかるか教えて",
+     "outcome": "実行（search_vehicle_manual）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "この店に牛乳があるか調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "近くの薬局にマスクの在庫があるか教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "この店の電話番号を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "美術館で今やっている展示を調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "週末にこの辺であるイベントを調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "このカフェにペットを連れて入れるか調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "犬と泊まれる宿を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "今が見ごろの花の名所を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "サンルーフが開けっぱなしじゃないか見て",
+     "outcome": "実行（capture_camera）",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "チャイルドシートを付けられる座席を調べて",
+     "outcome": "拒否（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "鍵を落としてないか車の周囲を見せて",
+     "outcome": "実行（get_vehicle_status）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "東京駅へのルートを案内してほしい",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "会社までのルートをお願いします",
+     "outcome": "拒否（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "中央図書館に行くルートをお願い",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "トータルの走行距離はいくつ",
+     "outcome": "実行（search_vehicle_manual）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "閉まりきっていないドアがあるか知りたい",
+     "outcome": "拒否（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "燃料でどこまで行けますか",
+     "outcome": "実行（search_vehicle_manual）",
+     "share": 1.0
+    },
+    {
+     "category": "G",
+     "utterance": "どうするのがいいかな",
+     "outcome": "拒否（search_vehicle_manual）",
+     "share": 1.0
+    }
+   ],
+   "stop_rows": [
+    {
+     "category": "K",
+     "utterance": "鍵を開けて乗ったからラジオをつけて",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "チャイルドシートを付けられる座席を調べて",
+     "stop": "拒否（検査）",
+     "tool": "search_poi",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "エンジン始動の前に車の周りを確認したい",
+     "stop": "聞き返し（確信度）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "デフロスターで前の窓を乾かしてください",
+     "stop": "聞き返し（確信度）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "エアコンの送風を止めてください",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "control_hvac",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "ボリュームの数値を10に設定して",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "消音を戻してください",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "control_media",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "会社までのルートをお願いします",
+     "stop": "拒否（検査）",
+     "tool": "search_poi",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "今日の燃費を表示して",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "get_vehicle_status",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "前の給油から何キロ走ったか教えて",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "閉まりきっていないドアがあるか知りたい",
+     "stop": "拒否（検査）",
+     "tool": "search_poi",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "油圧の警告灯が点いた時は",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "search_vehicle_manual",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "これを演奏しているのはどの人",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "曲の長さは何分",
+     "stop": "聞き返し（確信度）",
+     "tool": "None",
+     "share": 1.0
+    }
+   ],
+   "by_group": [
+    {
+     "category": "F",
+     "group": "CHAT",
+     "grade": "正解",
+     "rows": 50.0
+    },
+    {
+     "category": "G",
+     "group": "指示語",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "G",
+     "group": "曖昧",
+     "grade": "正解",
+     "rows": 24.0
+    },
+    {
+     "category": "G",
+     "group": "曖昧",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "G",
+     "group": "言い直しと取り消し",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "G",
+     "group": "途中で切れる",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "H",
+     "group": "seen",
+     "grade": "回復可能",
+     "rows": 13.0
+    },
+    {
+     "category": "H",
+     "group": "seen",
+     "grade": "正解",
+     "rows": 57.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "回復可能",
+     "rows": 14.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "正解",
+     "rows": 48.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "通常",
+     "rows": 18.0
+    },
+    {
+     "category": "K",
+     "group": "capture_camera",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "capture_camera",
+     "grade": "正解",
+     "rows": 12.0
+    },
+    {
+     "category": "K",
+     "group": "capture_camera",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "control_hvac",
+     "grade": "正解",
+     "rows": 20.0
+    },
+    {
+     "category": "K",
+     "group": "control_media",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "control_media",
+     "grade": "正解",
+     "rows": 15.0
+    },
+    {
+     "category": "K",
+     "group": "get_media_info",
+     "grade": "正解",
+     "rows": 6.0
+    },
+    {
+     "category": "K",
+     "group": "get_vehicle_status",
+     "grade": "正解",
+     "rows": 17.0
+    },
+    {
+     "category": "K",
+     "group": "get_vehicle_status",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "search_poi",
+     "grade": "正解",
+     "rows": 12.0
+    },
+    {
+     "category": "K",
+     "group": "search_vehicle_manual",
+     "grade": "正解",
+     "rows": 17.0
+    },
+    {
+     "category": "K",
+     "group": "search_vehicle_manual",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "set_navigation",
+     "grade": "正解",
+     "rows": 16.0
+    },
+    {
+     "category": "N",
+     "group": "capture_camera",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "control_hvac",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "control_hvac",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "control_media",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "control_media",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "get_media_info",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "get_media_info",
+     "grade": "正解",
+     "rows": 16.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "正解",
+     "rows": 19.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "通常",
+     "rows": 3.0
+    },
+    {
+     "category": "N",
+     "group": "search_poi",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "search_vehicle_manual",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "N",
+     "group": "search_vehicle_manual",
+     "grade": "正解",
+     "rows": 21.0
+    },
+    {
+     "category": "N",
+     "group": "set_navigation",
+     "grade": "正解",
+     "rows": 21.0
+    },
+    {
+     "category": "N",
+     "group": "set_navigation",
+     "grade": "通常",
+     "rows": 3.0
+    }
+   ],
+   "stages": {
+    "対象の依頼・雑談|実行": 286.0,
+    "対象の依頼・雑談|拒否（検査）": 3.0,
+    "対象の依頼・雑談|聞き返し（BERT のフラグ）": 4.0,
+    "対象の依頼・雑談|聞き返し（確信度）": 3.0,
+    "対象の依頼・雑談|聞き返し（規則）": 4.0,
+    "対象の依頼・雑談|雑談": 50.0,
+    "意図が不明|拒否（検査）": 1.0,
+    "意図が不明|聞き返し（引数が足りない）": 3.0,
+    "意図が不明|聞き返し（棄却ヘッド）": 22.0,
+    "意図が不明|聞き返し（確信度）": 1.0,
+    "意図が不明|聞き返し（規則）": 65.0,
+    "意図が不明|雑談": 8.0,
+    "機能にない依頼|実行": 12.0,
+    "機能にない依頼|拒否（BERT が断る）": 84.0,
+    "機能にない依頼|拒否（検査）": 21.0,
+    "機能にない依頼|聞き返し（BERT のフラグ）": 7.0,
+    "機能にない依頼|聞き返し（引数が足りない）": 1.0,
+    "機能にない依頼|聞き返し（棄却ヘッド）": 1.0,
+    "機能にない依頼|聞き返し（確信度）": 2.0,
+    "機能にない依頼|聞き返し（規則）": 16.0,
+    "機能にない依頼|雑談": 6.0
+   }
+  },
+  "26": {
+   "severe_rows": [],
+   "normal_rows": [
+    {
+     "category": "H",
+     "utterance": "今の気分に合う曲を作曲して",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "日経平均はいくらか調べて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "近くのガソリンの値段を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "富士山の高さを教えて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "世界一長い川を調べて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "今日は何の日か教えて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "このレストランのメニューを見せて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "この店のおすすめ料理を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "駐車場の空き状況を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "次の車検の費用を調べて",
+     "outcome": "実行（search_vehicle_manual）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "車検にいくらかかるか教えて",
+     "outcome": "実行（search_vehicle_manual）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "この店に牛乳があるか調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "近くの薬局にマスクの在庫があるか教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "美術館で今やっている展示を調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "週末にこの辺であるイベントを調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "このカフェにペットを連れて入れるか調べて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "犬と泊まれる宿を教えて",
+     "outcome": "実行（search_poi）",
+     "share": 1.0
+    },
+    {
+     "category": "H",
+     "utterance": "今が見ごろの花の名所を教えて",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "エンジン始動の前に車の周りを確認したい",
+     "outcome": "実行（get_vehicle_status）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "給油しなくても大丈夫そう",
+     "outcome": "雑談",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "タイヤの規定の空気圧は",
+     "outcome": "実行（get_vehicle_status）",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "燃料タンクの容量は何リットルか調べて",
+     "outcome": "実行（get_vehicle_status）",
+     "share": 1.0
+    },
+    {
+     "category": "G",
+     "utterance": "試しにやってみて",
+     "outcome": "拒否（capture_camera）",
+     "share": 1.0
+    }
+   ],
+   "stop_rows": [
+    {
+     "category": "K",
+     "utterance": "トランクに氷を積んでるから車内を21度にして",
+     "stop": "聞き返し（確信度）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "K",
+     "utterance": "エンジンの異音でディーラーを目的地にして",
+     "stop": "聞き返し（確信度）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "デフロスターで前の窓を乾かしてください",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "control_hvac",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "エアコンの送風を止めてください",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "control_hvac",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "ボリュームの数値を10に設定して",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "消音を戻してください",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "control_media",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "今日の燃費を表示して",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "get_vehicle_status",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "前の給油から何キロ走ったか教えて",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "油圧の警告灯が点いた時は",
+     "stop": "聞き返し（BERT のフラグ）",
+     "tool": "search_vehicle_manual",
+     "share": 1.0
+    },
+    {
+     "category": "N",
+     "utterance": "これを演奏しているのはどの人",
+     "stop": "聞き返し（規則）",
+     "tool": "None",
+     "share": 1.0
+    },
+    {
+     "category": "F",
+     "utterance": "ちょっとおしゃべりしよう",
+     "stop": "聞き返し（棄却ヘッド）",
+     "tool": "None",
+     "share": 1.0
+    }
+   ],
+   "by_group": [
+    {
+     "category": "F",
+     "group": "CHAT",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "F",
+     "group": "CHAT",
+     "grade": "正解",
+     "rows": 49.0
+    },
+    {
+     "category": "G",
+     "group": "指示語",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "G",
+     "group": "曖昧",
+     "grade": "正解",
+     "rows": 24.0
+    },
+    {
+     "category": "G",
+     "group": "曖昧",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "G",
+     "group": "言い直しと取り消し",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "G",
+     "group": "途中で切れる",
+     "grade": "正解",
+     "rows": 25.0
+    },
+    {
+     "category": "H",
+     "group": "seen",
+     "grade": "回復可能",
+     "rows": 13.0
+    },
+    {
+     "category": "H",
+     "group": "seen",
+     "grade": "正解",
+     "rows": 57.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "回復可能",
+     "rows": 13.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "正解",
+     "rows": 49.0
+    },
+    {
+     "category": "H",
+     "group": "unseen",
+     "grade": "通常",
+     "rows": 18.0
+    },
+    {
+     "category": "K",
+     "group": "capture_camera",
+     "grade": "正解",
+     "rows": 13.0
+    },
+    {
+     "category": "K",
+     "group": "capture_camera",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "control_hvac",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "control_hvac",
+     "grade": "正解",
+     "rows": 19.0
+    },
+    {
+     "category": "K",
+     "group": "control_media",
+     "grade": "正解",
+     "rows": 16.0
+    },
+    {
+     "category": "K",
+     "group": "get_media_info",
+     "grade": "正解",
+     "rows": 6.0
+    },
+    {
+     "category": "K",
+     "group": "get_vehicle_status",
+     "grade": "正解",
+     "rows": 18.0
+    },
+    {
+     "category": "K",
+     "group": "search_poi",
+     "grade": "正解",
+     "rows": 12.0
+    },
+    {
+     "category": "K",
+     "group": "search_vehicle_manual",
+     "grade": "正解",
+     "rows": 18.0
+    },
+    {
+     "category": "K",
+     "group": "set_navigation",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "K",
+     "group": "set_navigation",
+     "grade": "正解",
+     "rows": 15.0
+    },
+    {
+     "category": "N",
+     "group": "capture_camera",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "control_hvac",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "control_hvac",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "control_media",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "control_media",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "get_media_info",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "N",
+     "group": "get_media_info",
+     "grade": "正解",
+     "rows": 17.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "回復可能",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "正解",
+     "rows": 21.0
+    },
+    {
+     "category": "N",
+     "group": "get_vehicle_status",
+     "grade": "通常",
+     "rows": 1.0
+    },
+    {
+     "category": "N",
+     "group": "search_poi",
+     "grade": "正解",
+     "rows": 22.0
+    },
+    {
+     "category": "N",
+     "group": "search_vehicle_manual",
+     "grade": "回復可能",
+     "rows": 1.0
+    },
+    {
+     "category": "N",
+     "group": "search_vehicle_manual",
+     "grade": "正解",
+     "rows": 19.0
+    },
+    {
+     "category": "N",
+     "group": "search_vehicle_manual",
+     "grade": "通常",
+     "rows": 2.0
+    },
+    {
+     "category": "N",
+     "group": "set_navigation",
+     "grade": "正解",
+     "rows": 24.0
+    }
+   ],
+   "stages": {
+    "対象の依頼・雑談|実行": 289.0,
+    "対象の依頼・雑談|聞き返し（BERT のフラグ）": 5.0,
+    "対象の依頼・雑談|聞き返し（棄却ヘッド）": 1.0,
+    "対象の依頼・雑談|聞き返し（確信度）": 2.0,
+    "対象の依頼・雑談|聞き返し（規則）": 3.0,
+    "対象の依頼・雑談|雑談": 50.0,
+    "意図が不明|拒否（検査）": 1.0,
+    "意図が不明|聞き返し（引数が足りない）": 3.0,
+    "意図が不明|聞き返し（棄却ヘッド）": 10.0,
+    "意図が不明|聞き返し（規則）": 75.0,
+    "意図が不明|雑談": 11.0,
+    "機能にない依頼|実行": 12.0,
+    "機能にない依頼|拒否（BERT が断る）": 84.0,
+    "機能にない依頼|拒否（検査）": 22.0,
+    "機能にない依頼|聞き返し（BERT のフラグ）": 3.0,
+    "機能にない依頼|聞き返し（引数が足りない）": 1.0,
+    "機能にない依頼|聞き返し（棄却ヘッド）": 1.0,
+    "機能にない依頼|聞き返し（確信度）": 1.0,
+    "機能にない依頼|聞き返し（規則）": 20.0,
+    "機能にない依頼|雑談": 6.0
+   }
+  }
+ },
+ "lexicon": {
+  "read_rows": 176,
+  "unexplained": []
+ },
+ "bert": {
+  "seen": {
+   "flag": 0.9857142857142858,
+   "rows": 70
+  },
+  "操作": {
+   "flag": 0.95,
+   "rows": 40
+  },
+  "問い合わせ": {
+   "flag": 0.05,
+   "rows": 40
+  }
+ }
+}

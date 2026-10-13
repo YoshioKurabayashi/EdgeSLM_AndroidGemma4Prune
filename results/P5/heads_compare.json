@@ -1,0 +1,119 @@
+[
+ {
+  "n_layers": 17,
+  "data": "714 行（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8445333333333332,
+   "accuracy_std": 0.013806359243318096,
+   "rejection_recall_mean": 0.9222,
+   "configs_all_ok": 2,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8583,
+  "test_failed": []
+ },
+ {
+  "n_layers": 17,
+  "data": "933 行（P5）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8704,
+   "accuracy_std": 0.009276134252298602,
+   "rejection_recall_mean": 0.8831333333333333,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 9,
+   "failed_checks": [
+    "S2 誤実行 <= 0 件",
+    "S3 誤実行 <= 0 件",
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8707,
+  "test_failed": [
+   "S3 誤実行 <= 0 件",
+   "過剰な聞き返し <= 0.05"
+  ]
+ },
+ {
+  "n_layers": 26,
+  "data": "714 行（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8515333333333333,
+   "accuracy_std": 0.003991101212558896,
+   "rejection_recall_mean": 0.9333,
+   "configs_all_ok": 2,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.875,
+  "test_failed": []
+ },
+ {
+  "n_layers": 26,
+  "data": "933 行（P5）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8691,
+   "accuracy_std": 0.002255363976538294,
+   "rejection_recall_mean": 0.7893,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 13,
+   "failed_checks": [
+    "S2 誤実行 <= 0 件",
+    "S3 誤実行 <= 0 件",
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.898,
+  "test_failed": [
+   "S3 誤実行 <= 0 件",
+   "過剰な聞き返し <= 0.05"
+  ]
+ },
+ {
+  "n_layers": 35,
+  "data": "714 行（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.859,
+   "accuracy_std": 0.007838367176906167,
+   "rejection_recall_mean": 0.8815,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8833,
+  "test_failed": []
+ },
+ {
+  "n_layers": 35,
+  "data": "933 行（P5）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8730666666666668,
+   "accuracy_std": 0.0006128258770283784,
+   "rejection_recall_mean": 0.7624333333333334,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 22,
+   "failed_checks": [
+    "S2 誤実行 <= 0 件",
+    "S3 誤実行 <= 0 件",
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.9116,
+  "test_failed": [
+   "S3 誤実行 <= 0 件",
+   "過剰な聞き返し <= 0.05"
+  ]
+ }
+]

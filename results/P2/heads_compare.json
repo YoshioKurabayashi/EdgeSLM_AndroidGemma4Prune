@@ -1,0 +1,111 @@
+[
+ {
+  "n_layers": 17,
+  "source": "PC の HF（P1）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8435,
+   "accuracy_std": 0.00967574286553754,
+   "rejection_recall_mean": 0.8963000000000001,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 2,
+   "failed_checks": [
+    "S2 誤実行 <= 0 件",
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8583,
+  "test_failed": [
+   "過剰な聞き返し <= 0.05"
+  ]
+ },
+ {
+  "n_layers": 17,
+  "source": "端末（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8445333333333332,
+   "accuracy_std": 0.013806359243318096,
+   "rejection_recall_mean": 0.9222,
+   "configs_all_ok": 2,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8583,
+  "test_failed": []
+ },
+ {
+  "n_layers": 26,
+  "source": "PC の HF（P1）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8574,
+   "accuracy_std": 0.006531972647421769,
+   "rejection_recall_mean": 0.9259000000000001,
+   "configs_all_ok": 1,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8667,
+  "test_failed": [
+   "取りこぼし率 <= 0.05",
+   "過剰な聞き返し <= 0.05"
+  ]
+ },
+ {
+  "n_layers": 26,
+  "source": "端末（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8515333333333333,
+   "accuracy_std": 0.003991101212558896,
+   "rejection_recall_mean": 0.9333,
+   "configs_all_ok": 2,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.875,
+  "test_failed": []
+ },
+ {
+  "n_layers": 35,
+  "source": "PC の HF（P1）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.8483333333333333,
+   "accuracy_std": 0.004199470866139617,
+   "rejection_recall_mean": 0.9259000000000001,
+   "configs_all_ok": 3,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": []
+  },
+  "test_mlp_s7": 0.8667,
+  "test_failed": [
+   "取りこぼし率 <= 0.05",
+   "過剰な聞き返し <= 0.05"
+  ]
+ },
+ {
+  "n_layers": 35,
+  "source": "端末（P2）",
+  "crossval_mlp": {
+   "accuracy_mean": 0.859,
+   "accuracy_std": 0.007838367176906167,
+   "rejection_recall_mean": 0.8815,
+   "configs_all_ok": 0,
+   "configs": 3,
+   "wrong_writes": 0,
+   "failed_checks": [
+    "過剰な聞き返し <= 0.05"
+   ]
+  },
+  "test_mlp_s7": 0.8833,
+  "test_failed": []
+ }
+]

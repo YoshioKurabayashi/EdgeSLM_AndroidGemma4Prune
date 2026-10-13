@@ -1,0 +1,728 @@
+{
+ "rows": [
+  {
+   "n_layers": 4,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.6602666666666667,
+     "accuracy_std": 0.007317710631672261,
+     "rejection_recall_mean": 0.8333333333333334,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "取りこぼし率 <= 0.05",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.6527333333333334,
+     "accuracy_std": 0.002719477073916143,
+     "rejection_recall_mean": 0.8555666666666667,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "取りこぼし率 <= 0.05",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.7417,
+    "mlp_s7_checks_failed": [
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 10.114285714285714,
+    "ple_mb": 128.0,
+    "ctx_mb": 145.4857142857143
+   }
+  },
+  {
+   "n_layers": 6,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7799,
+     "accuracy_std": 0.0015556349186103902,
+     "rejection_recall_mean": 0.8814666666666667,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.7938333333333333,
+     "accuracy_std": 0.0037712361663282566,
+     "rejection_recall_mean": 0.8296333333333333,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8667,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 15.17142857142857,
+    "ple_mb": 192.0,
+    "ctx_mb": 218.22857142857143
+   }
+  },
+  {
+   "n_layers": 8,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7991666666666667,
+     "accuracy_std": 0.003991101212558847,
+     "rejection_recall_mean": 0.8778,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 3,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8140999999999999,
+     "accuracy_std": 0.013063945294843582,
+     "rejection_recall_mean": 0.9110999999999999,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8833,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 20.228571428571428,
+    "ple_mb": 256.0,
+    "ctx_mb": 290.9714285714286
+   }
+  },
+  {
+   "n_layers": 10,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8045,
+     "accuracy_std": 0.010451156235874922,
+     "rejection_recall_mean": 0.8407666666666667,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8034333333333334,
+     "accuracy_std": 0.007654773383683937,
+     "rejection_recall_mean": 0.8778,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.85,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 25.285714285714285,
+    "ple_mb": 320.0,
+    "ctx_mb": 363.7142857142857
+   }
+  },
+  {
+   "n_layers": 12,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7863333333333333,
+     "accuracy_std": 0.006205553068735238,
+     "rejection_recall_mean": 0.8592666666666666,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.7852666666666667,
+     "accuracy_std": 0.004744353368889044,
+     "rejection_recall_mean": 0.8666333333333333,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8417,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 30.34285714285714,
+    "ple_mb": 384.0,
+    "ctx_mb": 436.45714285714286
+   }
+  },
+  {
+   "n_layers": 14,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7841666666666667,
+     "accuracy_std": 0.01145900907098379,
+     "rejection_recall_mean": 0.8925666666666666,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8034333333333333,
+     "accuracy_std": 0.00419947086613965,
+     "rejection_recall_mean": 0.8629333333333333,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8583,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 35.4,
+    "ple_mb": 448.0,
+    "ctx_mb": 509.2
+   }
+  },
+  {
+   "n_layers": 15,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7702666666666667,
+     "accuracy_std": 0.005438954147832271,
+     "rejection_recall_mean": 0.9074,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.7713666666666666,
+     "accuracy_std": 0.009312476696465979,
+     "rejection_recall_mean": 0.8259,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8167,
+    "mlp_s7_checks_failed": [
+     "取りこぼし率 <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 37.92857142857143,
+    "ple_mb": 480.0,
+    "ctx_mb": 545.5714285714286
+   }
+  },
+  {
+   "n_layers": 16,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.7708333333333334,
+     "accuracy_std": 0.015876257605479803,
+     "rejection_recall_mean": 0.9074,
+     "configs_all_ok": 2,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.7869,
+     "accuracy_std": 0.0026127890589687525,
+     "rejection_recall_mean": 0.8333333333333334,
+     "configs_all_ok": 2,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.7833,
+    "mlp_s7_checks_failed": [
+     "取りこぼし率 <= 0.05",
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 40.457142857142856,
+    "ple_mb": 512.0,
+    "ctx_mb": 581.9428571428572
+   }
+  },
+  {
+   "n_layers": 17,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8435,
+     "accuracy_std": 0.00967574286553754,
+     "rejection_recall_mean": 0.8963000000000001,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8536666666666667,
+     "accuracy_std": 0.004945929864264381,
+     "rejection_recall_mean": 0.8889,
+     "configs_all_ok": 2,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8583,
+    "mlp_s7_checks_failed": [
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 42.98571428571429,
+    "ple_mb": 544.0,
+    "ctx_mb": 618.3142857142857
+   }
+  },
+  {
+   "n_layers": 18,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8376,
+     "accuracy_std": 0.012597089610964365,
+     "rejection_recall_mean": 0.8851666666666667,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8333333333333334,
+     "accuracy_std": 0.010415479932399767,
+     "rejection_recall_mean": 0.9,
+     "configs_all_ok": 2,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8333,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 45.51428571428571,
+    "ple_mb": 576.0,
+    "ctx_mb": 654.6857142857143
+   }
+  },
+  {
+   "n_layers": 19,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8274666666666666,
+     "accuracy_std": 0.016375659443888742,
+     "rejection_recall_mean": 0.8148,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8252999999999999,
+     "accuracy_std": 0.005986651818838339,
+     "rejection_recall_mean": 0.8666666666666667,
+     "configs_all_ok": 2,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8333,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 48.042857142857144,
+    "ple_mb": 608.0,
+    "ctx_mb": 691.0571428571428
+   }
+  },
+  {
+   "n_layers": 20,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8141000000000002,
+     "accuracy_std": 0.014837789592793103,
+     "rejection_recall_mean": 0.8888666666666666,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8151666666666667,
+     "accuracy_std": 0.008698403429493422,
+     "rejection_recall_mean": 0.8741,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8167,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 50.57142857142857,
+    "ple_mb": 640.0,
+    "ctx_mb": 727.4285714285714
+   }
+  },
+  {
+   "n_layers": 24,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8087666666666666,
+     "accuracy_std": 0.0052797306328595675,
+     "rejection_recall_mean": 0.9110999999999999,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8119666666666666,
+     "accuracy_std": 0.006444291185917134,
+     "rejection_recall_mean": 0.9518666666666666,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8333,
+    "mlp_s7_checks_failed": [
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 60.68571428571428,
+    "ple_mb": 768.0,
+    "ctx_mb": 872.9142857142857
+   }
+  },
+  {
+   "n_layers": 25,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8333333333333334,
+     "accuracy_std": 0.009465845034766943,
+     "rejection_recall_mean": 0.8999666666666668,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8253,
+     "accuracy_std": 0.004710272462041515,
+     "rejection_recall_mean": 0.9259333333333334,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8167,
+    "mlp_s7_checks_failed": []
+   },
+   "device_estimate": {
+    "npu_ms_T64": 63.214285714285715,
+    "ple_mb": 800.0,
+    "ctx_mb": 909.2857142857143
+   }
+  },
+  {
+   "n_layers": 26,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8574,
+     "accuracy_std": 0.006531972647421769,
+     "rejection_recall_mean": 0.9259000000000001,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8584666666666667,
+     "accuracy_std": 0.0037712361663282566,
+     "rejection_recall_mean": 0.9296000000000001,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8667,
+    "mlp_s7_checks_failed": [
+     "取りこぼし率 <= 0.05",
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 65.74285714285715,
+    "ple_mb": 832.0,
+    "ctx_mb": 945.6571428571428
+   }
+  },
+  {
+   "n_layers": 27,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8579333333333334,
+     "accuracy_std": 0.009977753031397186,
+     "rejection_recall_mean": 0.9074,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.8584666666666667,
+     "accuracy_std": 0.009268345171724179,
+     "rejection_recall_mean": 0.9296000000000001,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8833,
+    "mlp_s7_checks_failed": [
+     "取りこぼし率 <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 68.27142857142857,
+    "ple_mb": 864.0,
+    "ctx_mb": 982.0285714285715
+   }
+  },
+  {
+   "n_layers": 28,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8488666666666665,
+     "accuracy_std": 0.003991101212558847,
+     "rejection_recall_mean": 0.9333,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": [
+      "過剰な聞き返し <= 0.05"
+     ]
+    },
+    "linear": {
+     "accuracy_mean": 0.851,
+     "accuracy_std": 0.004710272462041515,
+     "rejection_recall_mean": 0.9074,
+     "configs_all_ok": 0,
+     "configs": 3,
+     "wrong_writes": 1,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件",
+      "過剰な聞き返し <= 0.05"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8583,
+    "mlp_s7_checks_failed": [
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 70.8,
+    "ple_mb": 896.0,
+    "ctx_mb": 1018.4
+   }
+  },
+  {
+   "n_layers": 35,
+   "crossval": {
+    "mlp": {
+     "accuracy_mean": 0.8483333333333333,
+     "accuracy_std": 0.004199470866139617,
+     "rejection_recall_mean": 0.9259000000000001,
+     "configs_all_ok": 3,
+     "configs": 3,
+     "wrong_writes": 0,
+     "failed_checks": []
+    },
+    "linear": {
+     "accuracy_mean": 0.8333,
+     "accuracy_std": 0.0022627416997969643,
+     "rejection_recall_mean": 0.9074,
+     "configs_all_ok": 1,
+     "configs": 3,
+     "wrong_writes": 2,
+     "failed_checks": [
+      "S2 誤実行 <= 0 件"
+     ]
+    }
+   },
+   "evaluate": {
+    "mlp_s7_test_accuracy": 0.8667,
+    "mlp_s7_checks_failed": [
+     "取りこぼし率 <= 0.05",
+     "過剰な聞き返し <= 0.05"
+    ]
+   },
+   "device_estimate": {
+    "npu_ms_T64": 88.5,
+    "ple_mb": 1120.0,
+    "ctx_mb": 1273.0
+   }
+  }
+ ],
+ "g1_reference": {
+  "crossval": {
+   "mlp": {
+    "accuracy_mean": 0.8483333333333333,
+    "accuracy_std": 0.004199470866139617,
+    "rejection_recall_mean": 0.9259000000000001,
+    "configs_all_ok": 3,
+    "configs": 3,
+    "wrong_writes": 0,
+    "failed_checks": []
+   },
+   "linear": {
+    "accuracy_mean": 0.8333,
+    "accuracy_std": 0.0022627416997969643,
+    "rejection_recall_mean": 0.9074,
+    "configs_all_ok": 1,
+    "configs": 3,
+    "wrong_writes": 2,
+    "failed_checks": [
+     "S2 誤実行 <= 0 件"
+    ]
+   }
+  },
+  "evaluate": {
+   "mlp_s7_test_accuracy": 0.8667,
+   "mlp_s7_checks_failed": [
+    "取りこぼし率 <= 0.05",
+    "過剰な聞き返し <= 0.05"
+   ]
+  }
+ },
+ "summary": {
+  "base_accuracy_35": 0.8483333333333333,
+  "min_layers_within_0.01": 17,
+  "best_layers": 27,
+  "best_accuracy": 0.8579333333333334
+ }
+}

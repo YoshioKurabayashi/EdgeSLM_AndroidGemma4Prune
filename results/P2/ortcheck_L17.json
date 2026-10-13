@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "id": "chat_greet_morning:0",
+   "n_tokens": 33,
+   "finite": true,
+   "h_last_rel": 0.14330406486988068,
+   "h_mean_rel": 0.07975710183382034,
+   "sec": 17.3
+  },
+  {
+   "id": "nav_no_perm:2",
+   "n_tokens": 35,
+   "finite": true,
+   "h_last_rel": 0.18087057769298553,
+   "h_mean_rel": 0.07884703576564789,
+   "sec": 3.3
+  },
+  {
+   "id": "veh_rpm:0",
+   "n_tokens": 36,
+   "finite": true,
+   "h_last_rel": 0.14722058176994324,
+   "h_mean_rel": 0.08029507845640182,
+   "sec": 3.8
+  },
+  {
+   "id": "man_tank_capacity:1",
+   "n_tokens": 37,
+   "finite": true,
+   "h_last_rel": 0.12977999448776245,
+   "h_mean_rel": 0.08180581033229828,
+   "sec": 3.5
+  },
+  {
+   "id": "man_childlock:0",
+   "n_tokens": 38,
+   "finite": true,
+   "h_last_rel": 0.1397976577281952,
+   "h_mean_rel": 0.07932516932487488,
+   "sec": 3.5
+  },
+  {
+   "id": "chat_op_manual_general:1",
+   "n_tokens": 40,
+   "finite": true,
+   "h_last_rel": 0.17186866700649261,
+   "h_mean_rel": 0.08078530430793762,
+   "sec": 3.6
+  },
+  {
+   "id": "nav_anaphora_change:1",
+   "n_tokens": 51,
+   "finite": true,
+   "h_last_rel": 0.15708421170711517,
+   "h_mean_rel": 0.07477699965238571,
+   "sec": 3.8
+  },
+  {
+   "id": "sw_poi_to_manual:1",
+   "n_tokens": 64,
+   "finite": true,
+   "h_last_rel": 0.16817539930343628,
+   "h_mean_rel": 0.08440811187028885,
+   "sec": 3.4
+  }
+ ],
+ "h_last_rel_mean": 0.1547626443207264,
+ "h_mean_rel_mean": 0.08000007644295692
+}

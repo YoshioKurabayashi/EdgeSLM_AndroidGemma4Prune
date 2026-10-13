@@ -1,0 +1,4365 @@
+{
+ "value": {
+  "v5": {
+   "control_hvac": {
+    "rows": 44,
+    "before": 30,
+    "after": 44
+   },
+   "control_media": {
+    "rows": 40,
+    "before": 35,
+    "after": 40
+   },
+   "set_navigation": {
+    "rows": 40,
+    "before": 23,
+    "after": 40
+   },
+   "K": {
+    "rows": 52,
+    "before": 27,
+    "after": 52
+   },
+   "N": {
+    "rows": 72,
+    "before": 61,
+    "after": 72
+   },
+   "all": {
+    "rows": 124,
+    "before": 88,
+    "after": 124
+   }
+  },
+  "v6": {
+   "control_hvac": {
+    "rows": 44,
+    "before": 28,
+    "after": 44
+   },
+   "control_media": {
+    "rows": 40,
+    "before": 33,
+    "after": 40
+   },
+   "set_navigation": {
+    "rows": 40,
+    "before": 23,
+    "after": 40
+   },
+   "K": {
+    "rows": 52,
+    "before": 29,
+    "after": 52
+   },
+   "N": {
+    "rows": 72,
+    "before": 55,
+    "after": 72
+   },
+   "all": {
+    "rows": 124,
+    "before": 84,
+    "after": 124
+   }
+  },
+  "wrong_after": []
+ },
+ "changed": {
+  "学習（履歴なし）": {
+   "known": 375,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "冷房を始めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "曲を飛ばして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "さっきの曲をもう一度",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "無音にして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ミュート解除して",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "同じ曲をもう一回",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "日差しが強くて車内がむっとしてきたから、冷房を入れてもらえる",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "朝は冷え込んでフロントが真っ白だから、デフロスターを入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "あー暑っ、冷房入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "えっと、暖房、もうちょい強めで",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ちょ、エアコン強すぎ、弱めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を少し弱めていただけますでしょうか",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暑うてかなわん、冷房つけてえな",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "クーラーのパワーをアップして",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "静かすぎて落ち着かないから、何か曲を流してもらえるかな",
+     "before": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "話し声が聞こえにくいので、音楽のボリュームを少し絞ってほしい",
+     "before": "{\"action\": \"volume_set\", \"volume\": 14}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この歌はあまり好きじゃないから、ひとつ先の曲に送って",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "子どもを迎えに行く時間だから、小学校を目的地に入れてほしい",
+     "before": "{\"action\": \"set\", \"destination\": \"子どもを迎え\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"小学校\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが冷たいから暖房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ハンドルが熱いから冷房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ドアを閉めたから冷房を入れ直して",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "通話中は音を消しておいて",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "窓を全開にしたから音量を上げて",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 14}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "鍵をかける前に音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "鍵を取りに家へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"鍵を取りに家\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"家\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトを買いにカー用品店まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ライトを買いにカー用品店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓の修理で板金屋に行きたい、案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"窓の修理で板金屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"板金屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートを取りに行くから倉庫までナビして",
+     "before": "{\"action\": \"set\", \"destination\": \"シートを取り\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"倉庫\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房をつけておいて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を使いたい",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "運転席だけ冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "助手席側だけ暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "デフロスターをつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "曇り止めを入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暑いから冷房を強めにかけて",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "寒いので暖房をつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "蒸し暑いから風を強めて",
+     "before": "{\"fan_level\": 2}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を弱くしてほしい",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "再生をストップして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"pause\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "止めた曲の続きをかけて",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "一曲飛ばして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "音を消しておいて",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "途中でコンビニに寄るようにして",
+     "before": "{\"action\": \"set\", \"destination\": \"途中でコンビニ\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"コンビニ\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが汗ばむから冷房を強めにして",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ドアが開いていて寒くなったから暖房を強めに入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "鍵を開けたばかりで車内が暑いから冷房をつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートを買いに家具屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"シートを買いに家具屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"家具屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトが切れたから整備工場へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"イトが切れたから整備工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"整備工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓を直してもらいに修理屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"窓を直してもらいに修理屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"修理屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "電話で呼ばれたから病院に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたから病院\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"病院\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "トランクの荷物を届けに郵便局へ案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ンクの荷物を届けに郵便局\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"郵便局\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "温度を1度だけ低くして",
+     "before": "{\"temperature\": 1.0}",
+     "after": "{\"temperature\": 24.0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風量を一番弱くして",
+     "before": "{\"fan_level\": 7}",
+     "after": "{\"fan_level\": 0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風量を2つ弱めて",
+     "before": "{\"fan_level\": 2}",
+     "after": "{\"fan_level\": 1}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ボリュームをいちばん小さくして",
+     "before": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "3曲目を再生して",
+     "before": "{\"action\": \"volume_set\", \"volume\": 3}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "再生を最初からにして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v1": {
+   "known": 105,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "冷房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲は飛ばして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "後ろの席の子どもが寒いって言ってるから、暖房をもう少し強くしてあげて",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "友だちを迎えに行くことになったので、東京駅を目的地にセットして",
+     "before": "{\"action\": \"set\", \"destination\": \"友だちを迎え\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"東京駅\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "あー寒い寒い、暖房つけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を強くして下差い",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "クーラーつけてや",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ちょっと寒いけん暖房つけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ボリュームアップ",
+     "before": "聞き返す",
+     "after": "{\"action\": \"volume_set\", \"volume\": 14}",
+     "a2v": true,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲をもう一度かけて",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲は飛ばして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v2": {
+   "known": 40,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "リアの窓が曇ってるから取って",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが熱いから冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ハンドルが冷たいから暖房を上げて",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ドアを開けたら冷えたから暖房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "エンジンが温まったみたいだから暖房をつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "窓を閉めたから冷房に切り替えて",
+     "before": "{\"mode\": \"off\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートを買いに行きたいからカー用品店まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"シートを買い\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトが切れたからディーラーまで連れてって",
+     "before": "{\"action\": \"set\", \"destination\": \"トが切れたからディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "エンジンの調子が悪いから整備工場へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"の調子が悪いから整備工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"整備工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "トランクの荷物を届けたいから実家まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"の荷物を届けたいから実家\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"実家\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓の修理に行くからガラス屋までナビして",
+     "before": "{\"action\": \"set\", \"destination\": \"窓の修理\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ガラス屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を弱めにして",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風をいちばん弱くして",
+     "before": "{\"fan_level\": 2}",
+     "after": "{\"fan_level\": 0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "消音をやめて音を出して",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v3": {
+   "known": 162,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "シートが蒸れるから冷房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ハンドルが熱くて握れないから車内を冷やして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"temperature\": 24.0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ドアを開けっぱなしだったから暖房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ライトをつける時間になって冷えてきたから暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "サンルーフを開けたら寒いから暖房を足して",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "電話が聞こえにくいから風を弱くして",
+     "before": "{\"fan_level\": 4}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "窓が全部曇ったからデフロスターを入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ライトを消して休むから暖房を弱くして",
+     "before": "{\"mode\": \"off\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "トランクの氷が溶けないように冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "トランクに荷物を積む間は音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "シートを倒して休むから静かな曲をかけて",
+     "before": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ワイパーを止めたら静かになったから音量を下げて",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ワイパーのゴムを買いにカー用品店まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"のゴムを買いにカー用品店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートカバーを受け取りにディーラーへ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"ーを受け取りにディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ドアのへこみを直しに修理工場まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"のへこみを直しに修理工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"修理工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "トランクの荷物を降ろしに倉庫へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"ンクの荷物を降ろしに倉庫\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"倉庫\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "電話で呼ばれたから会社まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたから会社\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"会社\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "充電が減ってきたから充電スタンドを経由地に入れて",
+     "before": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"充電スタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "タイヤを替えにタイヤ屋までナビして",
+     "before": "{\"action\": \"set\", \"destination\": \"タイヤを替えにタイヤ屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"タイヤ屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "鍵を返しに実家へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"鍵を返しに実家\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"実家\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "携帯ショップに寄ってから帰るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"携帯ショップ\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"携帯ショップ\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "洗車したいから洗車場まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"洗車したいから洗車場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"洗車場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "子どもを迎えに保育園まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"子どもを迎えに保育園\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"保育園\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "メールで届いた住所じゃなくて市役所に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"いた住所じゃなくて市役所\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"市役所\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトアップを見に東京タワーまで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"トアップを見に東京タワー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"東京タワー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓口が閉まる前に郵便局へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"窓口が閉まる前に郵便局\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"郵便局\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ドライブスルーに寄りたいからマクドナルドを経由地にして",
+     "before": "{\"action\": \"set\", \"destination\": \"ドライブスルー\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"マクドナルド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートを倒して休みたいから近くの道の駅へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"休みたいから近くの道の駅\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"近くの道の駅\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を一段強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房をもう少し弱めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房をかけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暑いので冷房をお願い",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を23度でつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"temperature\": 23.0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "曇り取りをオンにして",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "いったん無音にしてほしい",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "消音を解除して音を戻して",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲をもう一度最初から",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "曲を先に送って",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "シャッフル再生に切り替えて",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "途中でスーパーに寄るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"途中でスーパー\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"スーパー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "郵便局へ寄ってから帰る案内にして",
+     "before": "{\"action\": \"set\", \"destination\": \"郵便局\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"郵便局\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v4": {
+   "known": 124,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "ドアを開けたら暑い空気が入ったから冷房を強めて",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが熱くなってるから車内を冷やして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"temperature\": 24.0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "窓を閉めたから暖房を弱めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ワイパーが凍るくらい寒いから暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "トランクの花がしおれないように冷房を弱くかけて",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "サンルーフを閉めたから冷房を強めにして",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "荷物を降ろし終わったから暖房をつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ミラーが曇るほど湿ってるからデフロスターをつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "充電しながら待つから暖房を弱めにつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "鍵を閉めたら静かすぎるから何か流して",
+     "before": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "シートを倒して寝るから音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ワイパーを替えたいからカー用品店に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"を替えたいからカー用品店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトの修理でディーラーまで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ライトの修理でディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "鍵を届けに会社へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"鍵を届けに会社\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"会社\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓口に書類を出しに市役所まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"窓口に書類を出しに市役所\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"市役所\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "電話で頼まれたから駅まで迎えに行くルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"で頼まれたから駅まで迎え\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"駅\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "エンジンの点検で整備工場を目的地にして",
+     "before": "{\"action\": \"set\", \"destination\": \"エンジンの点検で整備工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"整備工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ドアミラーを直しに修理工場へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"アミラーを直しに修理工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"修理工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "充電が少ないから充電スタンドに寄るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"が少ないから充電スタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"充電スタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "スマホを買い替えに携帯ショップまで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"を買い替えに携帯ショップ\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"携帯ショップ\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "サンルーフの雨漏りを見てもらいにディーラーへ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"を見てもらいにディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "子どもの忘れ物を届けに小学校まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"もの忘れ物を届けに小学校\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"小学校\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "カメラを受け取りに家電量販店を目的地にして",
+     "before": "{\"action\": \"set\", \"destination\": \"カメラを受け取りに家電量販店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"家電量販店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "タイヤの空気を入れにガソリンスタンドへ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"を入れにガソリンスタンド\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ガソリンスタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "メールの住所は違うから区役所に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"ルの住所は違うから区役所\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"区役所\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を弱くして",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風をいちばん強くして",
+     "before": "{\"fan_level\": 4}",
+     "after": "{\"fan_level\": 7}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房をかけてほしい",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房をつけてくれる",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "デフロスターをオンにして",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "寒いので暖房を強めて",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "音を消してほしい",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ミュートを外して",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "最初から再生し直して",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "2曲先に飛ばして",
+     "before": "{\"action\": \"volume_set\", \"volume\": 2}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "途中でガソリンスタンドに寄るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"途中でガソリンスタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v5": {
+   "known": 124,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "窓を閉め切ったら蒸してきたから冷房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが冷えきってるから暖房を強めにして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "トランクの荷物が傷むから冷房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "電話の声が震えるほど寒いから暖房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "サンルーフ越しの日差しがきついから冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "後ろの席の子が寒いと言ってるから後席の暖房を強めて",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ミラーまで曇ってきたからデフロスターを入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "充電が終わるまで待つあいだ冷房を弱くかけて",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ライトを消して休憩するから静かな音楽を流して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ハンドルから手が離せないから曲を飛ばして",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "カメラの警告音が聞こえるように音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓ガラスの交換でガラス屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"窓ガラスの交換でガラス屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ガラス屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトの電球を買いにホームセンターへ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"球を買いにホームセンター\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ホームセンター\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "鍵を作りに合鍵屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"鍵を作りに合鍵屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"合鍵屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートの修理で内装屋に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"シートの修理で内装屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"内装屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "電話で頼まれた荷物を取りに郵便局へ案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"まれた荷物を取りに郵便局\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"郵便局\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "トランクのごみを出しに清掃センターまで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ごみを出しに清掃センター\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"清掃センター\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "エンジンの異音を見てもらいに整備工場へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"音を見てもらいに整備工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"整備工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ワイパーを買いにカー用品店を目的地にして",
+     "before": "{\"action\": \"set\", \"destination\": \"ワイパーを買いにカー用品店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "サンルーフの点検でディーラーまでナビして",
+     "before": "{\"action\": \"set\", \"destination\": \"ルーフの点検でディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "バッテリーが心配だから途中で充電スポットに寄るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"だから途中で充電スポット\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"充電スポット\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ミラーの修理が終わったから工場まで取りに向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"終わったから工場まで取り\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ドアのへこみを見せに板金屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"アのへこみを見せに板金屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"板金屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ハンドルカバーを受け取りに駅前の店まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"バーを受け取りに駅前の店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"駅前の店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "カメラの修理でカメラ屋を目的地にして",
+     "before": "{\"action\": \"set\", \"destination\": \"カメラの修理でカメラ屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カメラ屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "子どものシートを借りに実家へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"どものシートを借りに実家\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"実家\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房を入れてくれない",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "後ろの席にも冷房を入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房をもっと強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風量を一番小さくして",
+     "before": "{\"fan_level\": 7}",
+     "after": "{\"fan_level\": 0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暑いので冷房を入れてください",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "前のガラスが曇ったから取って",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房が効きすぎだから弱くして",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "消音をやめて",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "曲を最初からかけ直して",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "止めた曲を続きから流して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "シャッフルで再生して",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲をもう一回かけて",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "途中でコンビニに寄りたい",
+     "before": "{\"action\": \"set\", \"destination\": \"途中でコンビニ\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"コンビニ\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "設定した目的地をなしにして",
+     "before": "{\"action\": \"set\", \"destination\": \"なし\"}",
+     "after": "{\"action\": \"cancel\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  },
+  "評価セット v6": {
+   "known": 124,
+   "rows": [
+    {
+     "tool": "空調",
+     "utterance": "窓を閉めても暑いので冷房を強くしてください",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "シートが冷たくて震えるから暖房を入れてよ",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ライトが要る時間になって冷えたから暖房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "鍵を探してたら体が冷えたから暖房をつけて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "エンジンを切るからその前に冷房を止めといて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"off\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "ミラーまで曇るくらいじめじめするので曇り止めを入れて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "チャイルドシートの子が汗をかいてるから冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "荷物を降ろすのに汗だくだから冷房を強くして",
+     "before": "{\"temperature\": 26.0}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "窓を全開にしたら音が負けるのでボリュームを足して",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 14}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "鍵を閉めたら静かになったからラジオをつけて",
+     "before": "{\"action\": \"volume_set\", \"volume\": 10}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ミラーを見たら後ろの子が寝てたから音を消して",
+     "before": "{\"action\": \"pause\"}",
+     "after": "{\"action\": \"mute\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "窓の修理を頼みにガラス店まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"窓の修理を頼みにガラス店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ガラス店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ライトが点かないからカー用品店に向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"が点かないからカー用品店\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"カー用品店\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "鍵をなくしたからディーラーまで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"をなくしたからディーラー\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ディーラー\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "シートを積みに実家へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"シートを積みに実家\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"実家\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "電話で呼ばれたので会社まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたので会社\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"会社\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "トランクの荷物を届けに駅まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"トランクの荷物を届けに駅\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"駅\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ワイパーを替えたいからガソリンスタンドに寄るルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"たいからガソリンスタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "サンルーフが閉まらないから修理工場へ向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"が閉まらないから修理工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"修理工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "充電が足りないので充電スタンドを経由地に追加して",
+     "before": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"充電スタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ドアをぶつけたから修理工場まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"アをぶつけたから修理工場\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"修理工場\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "スマホを買い替えたいからショッピングモールに向かって",
+     "before": "{\"action\": \"set\", \"destination\": \"いからショッピングモール\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"ショッピングモール\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "ハンドルがぶれるからタイヤ屋まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ドルがぶれるからタイヤ屋\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"タイヤ屋\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "チャイルドシートを返しに営業所まで案内して",
+     "before": "{\"action\": \"set\", \"destination\": \"ルドシートを返しに営業所\"}",
+     "after": "{\"action\": \"set\", \"destination\": \"営業所\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房をお願い",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "後部座席の冷房を強めて",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "デフロスターを入れてください",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"defrost\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "冷房を強めにお願い",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 4}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "風をいちばん強くしてください",
+     "before": "{\"fan_level\": 4}",
+     "after": "{\"fan_level\": 7}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "寒いので暖房を入れてください",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"mode\": \"heat\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暑いから冷房をお願い",
+     "before": "{\"temperature\": 24.0}",
+     "after": "{\"mode\": \"cool\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "空調",
+     "utterance": "暖房は控えめでお願い",
+     "before": "{\"mode\": \"auto\"}",
+     "after": "{\"fan_level\": 2}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "一曲ぶん戻ってもらえる",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "消音を取りやめて音を戻して",
+     "before": "{\"action\": \"mute\"}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 12}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "この曲を最初から流して",
+     "before": "{\"action\": \"play\"}",
+     "after": "{\"action\": \"previous\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "2曲先まで飛ばしてください",
+     "before": "{\"action\": \"volume_set\", \"volume\": 2}",
+     "after": "{\"action\": \"next\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "シャッフル再生にして",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"play\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "メディア",
+     "utterance": "ボリュームを一番小さくして",
+     "before": "{\"action\": \"volume_set\", \"volume\": 40}",
+     "after": "{\"action\": \"volume_set\", \"volume\": 0}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "いまとは違う道順で案内して",
+     "before": "聞き返す",
+     "after": "{\"action\": \"reroute\"}",
+     "a2v": true,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "途中でガソリンスタンドに寄りたい",
+     "before": "{\"action\": \"set\", \"destination\": \"途中でガソリンスタンド\"}",
+     "after": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+     "a2v": false,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "渋滞を避けて案内して",
+     "before": "聞き返す",
+     "after": "{\"action\": \"reroute\"}",
+     "a2v": true,
+     "v2a": false
+    },
+    {
+     "tool": "ナビ",
+     "utterance": "有料の道は通らずに行けるルートにして",
+     "before": "{\"action\": \"set\", \"destination\": \"有料の道は通らず\"}",
+     "after": "{\"action\": \"reroute\"}",
+     "a2v": false,
+     "v2a": false
+    }
+   ]
+  }
+ },
+ "unknown": {
+  "学習（履歴なし）": {
+   "rows": 519,
+   "before": [
+    507,
+    516,
+    28
+   ],
+   "after": [
+    507,
+    516,
+    28
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v1": {
+   "rows": 77,
+   "before": [
+    69,
+    69,
+    5
+   ],
+   "after": [
+    69,
+    69,
+    5
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v2": {
+   "rows": 80,
+   "before": [
+    79,
+    80,
+    3
+   ],
+   "after": [
+    79,
+    80,
+    3
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v3": {
+   "rows": 320,
+   "before": [
+    316,
+    318,
+    10
+   ],
+   "after": [
+    316,
+    318,
+    10
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v4": {
+   "rows": 250,
+   "before": [
+    247,
+    248,
+    13
+   ],
+   "after": [
+    247,
+    248,
+    13
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v5": {
+   "rows": 250,
+   "before": [
+    245,
+    249,
+    8
+   ],
+   "after": [
+    245,
+    249,
+    8
+   ],
+   "gain": [],
+   "lose": []
+  },
+  "評価セット v6": {
+   "rows": 250,
+   "before": [
+    246,
+    246,
+    13
+   ],
+   "after": [
+    246,
+    246,
+    12
+   ],
+   "gain": [],
+   "lose": [
+    [
+     "いつものあれに戻してほしい",
+     "ナビ"
+    ]
+   ]
+  }
+ },
+ "kpi": {
+  "v6|17|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9672222222222221,
+    "min": 0.9616666666666667,
+    "max": 0.9733333333333334
+   },
+   "severe_n": {
+    "mean": 2.3333333333333335,
+    "min": 1.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.049523809523809526,
+    "min": 0.04,
+    "max": 0.06285714285714286
+   },
+   "normal": {
+    "mean": 0.02888888888888889,
+    "min": 0.025,
+    "max": 0.03333333333333333
+   },
+   "first": {
+    "mean": 0.8766666666666666,
+    "min": 0.8733333333333333,
+    "max": 0.8833333333333333
+   },
+   "value": {
+    "wrong_exec": 33.333333333333336,
+    "e2e_value": 0.9116666666666665,
+    "severe_value_n": 35.66666666666667,
+    "severe_value": 0.05944444444444445,
+    "first_value": 0.821111111111111,
+    "rows": [
+     {
+      "utterance": "窓を閉めても暑いので冷房を強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷たくて震えるから暖房を入れてよ",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが要る時間になって冷えたから暖房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を探してたら体が冷えたから暖房をつけて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンを切るからその前に冷房を止めといて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:off",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーまで曇るくらいじめじめするので曇り止めを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートの子が汗をかいてるから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "荷物を降ろすのに汗だくだから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "窓の修理を頼みにガラス店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓の修理を頼みにガラス店\"}",
+      "label": "set:ガラス店",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが点かないからカー用品店に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が点かないからカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵をなくしたからディーラーまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"をなくしたからディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートを積みに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートを積みに実家\"}",
+      "label": "set:実家",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で呼ばれたので会社まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたので会社\"}",
+      "label": "set:会社",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物を届けに駅まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"トランクの荷物を届けに駅\"}",
+      "label": "set:駅",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを替えたいからガソリンスタンドに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"たいからガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフが閉まらないから修理工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が閉まらないから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が足りないので充電スタンドを経由地に追加して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+      "label": "way:充電スタンド",
+      "share": 0.67
+     },
+     {
+      "utterance": "ドアをぶつけたから修理工場まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アをぶつけたから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "スマホを買い替えたいからショッピングモールに向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"いからショッピングモール\"}",
+      "label": "set:ショッピングモール",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルがぶれるからタイヤ屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ドルがぶれるからタイヤ屋\"}",
+      "label": "set:タイヤ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートを返しに営業所まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルドシートを返しに営業所\"}",
+      "label": "set:営業所",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "後部座席の冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房を強めにお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風をいちばん強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 4}",
+      "label": "f7",
+      "share": 1.0
+     },
+     {
+      "utterance": "寒いので暖房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "暑いから冷房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房は控えめでお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f2",
+      "share": 1.0
+     },
+     {
+      "utterance": "一曲ぶん戻ってもらえる",
+      "tool": "control_media",
+      "got": "{\"action\": \"play\"}",
+      "label": "prev",
+      "share": 1.0
+     },
+     {
+      "utterance": "2曲先まで飛ばしてください",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 2}",
+      "label": "next",
+      "share": 0.67
+     },
+     {
+      "utterance": "シャッフル再生にして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "ボリュームを一番小さくして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "v0",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でガソリンスタンドに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "有料の道は通らずに行けるルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"有料の道は通らず\"}",
+      "label": "reroute",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v6|17|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9672222222222221,
+    "min": 0.9616666666666667,
+    "max": 0.9733333333333334
+   },
+   "severe_n": {
+    "mean": 2.3333333333333335,
+    "min": 1.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.043809523809523805,
+    "min": 0.03428571428571429,
+    "max": 0.05714285714285714
+   },
+   "normal": {
+    "mean": 0.02888888888888889,
+    "min": 0.025,
+    "max": 0.03333333333333333
+   },
+   "first": {
+    "mean": 0.88,
+    "min": 0.8766666666666667,
+    "max": 0.8866666666666667
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9672222222222221,
+    "severe_value_n": 2.3333333333333335,
+    "severe_value": 0.003888888888888889,
+    "first_value": 0.88,
+    "rows": []
+   }
+  },
+  "v6|26|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9738888888888889,
+    "min": 0.9716666666666667,
+    "max": 0.975
+   },
+   "severe_n": {
+    "mean": 2.0,
+    "min": 2.0,
+    "max": 2.0
+   },
+   "over": {
+    "mean": 0.04571428571428571,
+    "min": 0.037142857142857144,
+    "max": 0.054285714285714284
+   },
+   "normal": {
+    "mean": 0.022777777777777775,
+    "min": 0.021666666666666667,
+    "max": 0.025
+   },
+   "first": {
+    "mean": 0.8849999999999999,
+    "min": 0.88,
+    "max": 0.8916666666666667
+   },
+   "value": {
+    "wrong_exec": 33.66666666666667,
+    "e2e_value": 0.9177777777777778,
+    "severe_value_n": 35.66666666666667,
+    "severe_value": 0.05944444444444445,
+    "first_value": 0.8288888888888888,
+    "rows": [
+     {
+      "utterance": "窓を閉めても暑いので冷房を強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷たくて震えるから暖房を入れてよ",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが要る時間になって冷えたから暖房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を探してたら体が冷えたから暖房をつけて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンを切るからその前に冷房を止めといて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:off",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーまで曇るくらいじめじめするので曇り止めを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートの子が汗をかいてるから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "荷物を降ろすのに汗だくだから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を閉めたら静かになったからラジオをつけて",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 10}",
+      "label": "play",
+      "share": 0.33
+     },
+     {
+      "utterance": "窓の修理を頼みにガラス店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓の修理を頼みにガラス店\"}",
+      "label": "set:ガラス店",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが点かないからカー用品店に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が点かないからカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵をなくしたからディーラーまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"をなくしたからディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートを積みに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートを積みに実家\"}",
+      "label": "set:実家",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で呼ばれたので会社まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたので会社\"}",
+      "label": "set:会社",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物を届けに駅まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"トランクの荷物を届けに駅\"}",
+      "label": "set:駅",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを替えたいからガソリンスタンドに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"たいからガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフが閉まらないから修理工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が閉まらないから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が足りないので充電スタンドを経由地に追加して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+      "label": "way:充電スタンド",
+      "share": 0.67
+     },
+     {
+      "utterance": "ドアをぶつけたから修理工場まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アをぶつけたから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "スマホを買い替えたいからショッピングモールに向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"いからショッピングモール\"}",
+      "label": "set:ショッピングモール",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルがぶれるからタイヤ屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ドルがぶれるからタイヤ屋\"}",
+      "label": "set:タイヤ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートを返しに営業所まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルドシートを返しに営業所\"}",
+      "label": "set:営業所",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "後部座席の冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房を強めにお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風をいちばん強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 4}",
+      "label": "f7",
+      "share": 1.0
+     },
+     {
+      "utterance": "寒いので暖房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "暑いから冷房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房は控えめでお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f2",
+      "share": 1.0
+     },
+     {
+      "utterance": "一曲ぶん戻ってもらえる",
+      "tool": "control_media",
+      "got": "{\"action\": \"play\"}",
+      "label": "prev",
+      "share": 1.0
+     },
+     {
+      "utterance": "2曲先まで飛ばしてください",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 2}",
+      "label": "next",
+      "share": 0.67
+     },
+     {
+      "utterance": "シャッフル再生にして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "ボリュームを一番小さくして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "v0",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でガソリンスタンドに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "有料の道は通らずに行けるルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"有料の道は通らず\"}",
+      "label": "reroute",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v6|26|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9738888888888889,
+    "min": 0.9716666666666667,
+    "max": 0.975
+   },
+   "severe_n": {
+    "mean": 2.0,
+    "min": 2.0,
+    "max": 2.0
+   },
+   "over": {
+    "mean": 0.04,
+    "min": 0.03142857142857143,
+    "max": 0.04857142857142857
+   },
+   "normal": {
+    "mean": 0.022777777777777775,
+    "min": 0.021666666666666667,
+    "max": 0.025
+   },
+   "first": {
+    "mean": 0.8883333333333333,
+    "min": 0.8833333333333333,
+    "max": 0.895
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9738888888888889,
+    "severe_value_n": 2.0,
+    "severe_value": 0.0033333333333333335,
+    "first_value": 0.8883333333333333,
+    "rows": []
+   }
+  },
+  "v6|35|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9661111111111111,
+    "min": 0.96,
+    "max": 0.97
+   },
+   "severe_n": {
+    "mean": 3.0,
+    "min": 3.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.04666666666666667,
+    "min": 0.04285714285714286,
+    "max": 0.05142857142857143
+   },
+   "normal": {
+    "mean": 0.02888888888888889,
+    "min": 0.025,
+    "max": 0.035
+   },
+   "first": {
+    "mean": 0.8794444444444444,
+    "min": 0.875,
+    "max": 0.8833333333333333
+   },
+   "value": {
+    "wrong_exec": 33.333333333333336,
+    "e2e_value": 0.9105555555555556,
+    "severe_value_n": 36.333333333333336,
+    "severe_value": 0.06055555555555556,
+    "first_value": 0.8238888888888888,
+    "rows": [
+     {
+      "utterance": "窓を閉めても暑いので冷房を強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷たくて震えるから暖房を入れてよ",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが要る時間になって冷えたから暖房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を探してたら体が冷えたから暖房をつけて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンを切るからその前に冷房を止めといて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:off",
+      "share": 0.67
+     },
+     {
+      "utterance": "ミラーまで曇るくらいじめじめするので曇り止めを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートの子が汗をかいてるから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "荷物を降ろすのに汗だくだから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "窓を全開にしたら音が負けるのでボリュームを足して",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "v14",
+      "share": 0.67
+     },
+     {
+      "utterance": "鍵を閉めたら静かになったからラジオをつけて",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 10}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "窓の修理を頼みにガラス店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓の修理を頼みにガラス店\"}",
+      "label": "set:ガラス店",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトが点かないからカー用品店に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が点かないからカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵をなくしたからディーラーまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"をなくしたからディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートを積みに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートを積みに実家\"}",
+      "label": "set:実家",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で呼ばれたので会社まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"電話で呼ばれたので会社\"}",
+      "label": "set:会社",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物を届けに駅まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"トランクの荷物を届けに駅\"}",
+      "label": "set:駅",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを替えたいからガソリンスタンドに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"たいからガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフが閉まらないから修理工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"が閉まらないから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が足りないので充電スタンドを経由地に追加して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"add_waypoint\", \"destination\": \"ガソリンスタンド\"}",
+      "label": "way:充電スタンド",
+      "share": 0.33
+     },
+     {
+      "utterance": "ドアをぶつけたから修理工場まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アをぶつけたから修理工場\"}",
+      "label": "set:修理工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルがぶれるからタイヤ屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ドルがぶれるからタイヤ屋\"}",
+      "label": "set:タイヤ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "チャイルドシートを返しに営業所まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルドシートを返しに営業所\"}",
+      "label": "set:営業所",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "後部座席の冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房を強めにお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風をいちばん強くしてください",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 4}",
+      "label": "f7",
+      "share": 1.0
+     },
+     {
+      "utterance": "寒いので暖房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "暑いから冷房をお願い",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房は控えめでお願い",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f2",
+      "share": 1.0
+     },
+     {
+      "utterance": "一曲ぶん戻ってもらえる",
+      "tool": "control_media",
+      "got": "{\"action\": \"play\"}",
+      "label": "prev",
+      "share": 1.0
+     },
+     {
+      "utterance": "2曲先まで飛ばしてください",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 2}",
+      "label": "next",
+      "share": 0.67
+     },
+     {
+      "utterance": "シャッフル再生にして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "ボリュームを一番小さくして",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "v0",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でガソリンスタンドに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でガソリンスタンド\"}",
+      "label": "way:ガソリンスタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "有料の道は通らずに行けるルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"有料の道は通らず\"}",
+      "label": "reroute",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v6|35|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9661111111111111,
+    "min": 0.96,
+    "max": 0.97
+   },
+   "severe_n": {
+    "mean": 3.0,
+    "min": 3.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.040952380952380955,
+    "min": 0.037142857142857144,
+    "max": 0.045714285714285714
+   },
+   "normal": {
+    "mean": 0.02888888888888889,
+    "min": 0.025,
+    "max": 0.035
+   },
+   "first": {
+    "mean": 0.8827777777777778,
+    "min": 0.8783333333333333,
+    "max": 0.8866666666666667
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9661111111111111,
+    "severe_value_n": 3.0,
+    "severe_value": 0.005,
+    "first_value": 0.8827777777777778,
+    "rows": []
+   }
+  },
+  "v5|17|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9816666666666666,
+    "min": 0.98,
+    "max": 0.9833333333333333
+   },
+   "severe_n": {
+    "mean": 3.0,
+    "min": 3.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.05904761904761904,
+    "min": 0.04857142857142857,
+    "max": 0.07142857142857142
+   },
+   "normal": {
+    "mean": 0.013333333333333334,
+    "min": 0.011666666666666667,
+    "max": 0.015
+   },
+   "first": {
+    "mean": 0.8877777777777779,
+    "min": 0.8816666666666667,
+    "max": 0.895
+   },
+   "value": {
+    "wrong_exec": 33.0,
+    "e2e_value": 0.9266666666666665,
+    "severe_value_n": 36.0,
+    "severe_value": 0.06,
+    "first_value": 0.8327777777777778,
+    "rows": [
+     {
+      "utterance": "窓を閉め切ったら蒸してきたから冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷えきってるから暖房を強めにして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物が傷むから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話の声が震えるほど寒いから暖房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフ越しの日差しがきついから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "後ろの席の子が寒いと言ってるから後席の暖房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーまで曇ってきたからデフロスターを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が終わるまで待つあいだ冷房を弱くかけて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "f2|f2,m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトを消して休憩するから静かな音楽を流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "窓ガラスの交換でガラス屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓ガラスの交換でガラス屋\"}",
+      "label": "set:ガラス屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトの電球を買いにホームセンターへ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"球を買いにホームセンター\"}",
+      "label": "set:ホームセンター",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を作りに合鍵屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"鍵を作りに合鍵屋\"}",
+      "label": "set:合鍵屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートの修理で内装屋に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートの修理で内装屋\"}",
+      "label": "set:内装屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で頼まれた荷物を取りに郵便局へ案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"まれた荷物を取りに郵便局\"}",
+      "label": "set:郵便局",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクのごみを出しに清掃センターまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ごみを出しに清掃センター\"}",
+      "label": "set:清掃センター",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンの異音を見てもらいに整備工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"音を見てもらいに整備工場\"}",
+      "label": "set:整備工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを買いにカー用品店を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ワイパーを買いにカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフの点検でディーラーまでナビして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルーフの点検でディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "バッテリーが心配だから途中で充電スポットに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"だから途中で充電スポット\"}",
+      "label": "way:充電スポット|way:充電スタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーの修理が終わったから工場まで取りに向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"終わったから工場まで取り\"}",
+      "label": "set:工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ドアのへこみを見せに板金屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アのへこみを見せに板金屋\"}",
+      "label": "set:板金屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルカバーを受け取りに駅前の店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"バーを受け取りに駅前の店\"}",
+      "label": "set:駅前の店",
+      "share": 1.0
+     },
+     {
+      "utterance": "カメラの修理でカメラ屋を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"カメラの修理でカメラ屋\"}",
+      "label": "set:カメラ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "子どものシートを借りに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"どものシートを借りに実家\"}",
+      "label": "set:実家",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房を入れてくれない",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 0.33
+     },
+     {
+      "utterance": "後ろの席にも冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房をもっと強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風量を一番小さくして",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 7}",
+      "label": "f0|f1",
+      "share": 0.67
+     },
+     {
+      "utterance": "暑いので冷房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "前のガラスが曇ったから取って",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "止めた曲を続きから流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "シャッフルで再生して",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でコンビニに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でコンビニ\"}",
+      "label": "way:コンビニ",
+      "share": 1.0
+     },
+     {
+      "utterance": "設定した目的地をなしにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"なし\"}",
+      "label": "cancel",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v5|17|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9816666666666666,
+    "min": 0.98,
+    "max": 0.9833333333333333
+   },
+   "severe_n": {
+    "mean": 3.0,
+    "min": 3.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.05904761904761904,
+    "min": 0.04857142857142857,
+    "max": 0.07142857142857142
+   },
+   "normal": {
+    "mean": 0.013333333333333334,
+    "min": 0.011666666666666667,
+    "max": 0.015
+   },
+   "first": {
+    "mean": 0.8877777777777779,
+    "min": 0.8816666666666667,
+    "max": 0.895
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9816666666666666,
+    "severe_value_n": 3.0,
+    "severe_value": 0.005,
+    "first_value": 0.8877777777777779,
+    "rows": []
+   }
+  },
+  "v5|26|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9844444444444443,
+    "min": 0.9833333333333333,
+    "max": 0.985
+   },
+   "severe_n": {
+    "mean": 2.6666666666666665,
+    "min": 2.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.040952380952380955,
+    "min": 0.03428571428571429,
+    "max": 0.05142857142857143
+   },
+   "normal": {
+    "mean": 0.011111111111111112,
+    "min": 0.01,
+    "max": 0.011666666666666667
+   },
+   "first": {
+    "mean": 0.9016666666666667,
+    "min": 0.895,
+    "max": 0.9066666666666666
+   },
+   "value": {
+    "wrong_exec": 33.33333333333333,
+    "e2e_value": 0.9288888888888888,
+    "severe_value_n": 35.99999999999999,
+    "severe_value": 0.05999999999999999,
+    "first_value": 0.8461111111111111,
+    "rows": [
+     {
+      "utterance": "窓を閉め切ったら蒸してきたから冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷えきってるから暖房を強めにして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物が傷むから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話の声が震えるほど寒いから暖房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフ越しの日差しがきついから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "後ろの席の子が寒いと言ってるから後席の暖房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーまで曇ってきたからデフロスターを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が終わるまで待つあいだ冷房を弱くかけて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "f2|f2,m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトを消して休憩するから静かな音楽を流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "窓ガラスの交換でガラス屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓ガラスの交換でガラス屋\"}",
+      "label": "set:ガラス屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトの電球を買いにホームセンターへ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"球を買いにホームセンター\"}",
+      "label": "set:ホームセンター",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を作りに合鍵屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"鍵を作りに合鍵屋\"}",
+      "label": "set:合鍵屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートの修理で内装屋に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートの修理で内装屋\"}",
+      "label": "set:内装屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で頼まれた荷物を取りに郵便局へ案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"まれた荷物を取りに郵便局\"}",
+      "label": "set:郵便局",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクのごみを出しに清掃センターまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ごみを出しに清掃センター\"}",
+      "label": "set:清掃センター",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンの異音を見てもらいに整備工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"音を見てもらいに整備工場\"}",
+      "label": "set:整備工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを買いにカー用品店を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ワイパーを買いにカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフの点検でディーラーまでナビして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルーフの点検でディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "バッテリーが心配だから途中で充電スポットに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"だから途中で充電スポット\"}",
+      "label": "way:充電スポット|way:充電スタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーの修理が終わったから工場まで取りに向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"終わったから工場まで取り\"}",
+      "label": "set:工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ドアのへこみを見せに板金屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アのへこみを見せに板金屋\"}",
+      "label": "set:板金屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルカバーを受け取りに駅前の店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"バーを受け取りに駅前の店\"}",
+      "label": "set:駅前の店",
+      "share": 1.0
+     },
+     {
+      "utterance": "カメラの修理でカメラ屋を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"カメラの修理でカメラ屋\"}",
+      "label": "set:カメラ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "子どものシートを借りに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"どものシートを借りに実家\"}",
+      "label": "set:実家",
+      "share": 1.0
+     },
+     {
+      "utterance": "暖房を入れてくれない",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 0.33
+     },
+     {
+      "utterance": "後ろの席にも冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房をもっと強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風量を一番小さくして",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 7}",
+      "label": "f0|f1",
+      "share": 1.0
+     },
+     {
+      "utterance": "暑いので冷房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "前のガラスが曇ったから取って",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "止めた曲を続きから流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "シャッフルで再生して",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でコンビニに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でコンビニ\"}",
+      "label": "way:コンビニ",
+      "share": 1.0
+     },
+     {
+      "utterance": "設定した目的地をなしにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"なし\"}",
+      "label": "cancel",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v5|26|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9844444444444443,
+    "min": 0.9833333333333333,
+    "max": 0.985
+   },
+   "severe_n": {
+    "mean": 2.6666666666666665,
+    "min": 2.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.040952380952380955,
+    "min": 0.03428571428571429,
+    "max": 0.05142857142857143
+   },
+   "normal": {
+    "mean": 0.011111111111111112,
+    "min": 0.01,
+    "max": 0.011666666666666667
+   },
+   "first": {
+    "mean": 0.9016666666666667,
+    "min": 0.895,
+    "max": 0.9066666666666666
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9844444444444443,
+    "severe_value_n": 2.6666666666666665,
+    "severe_value": 0.0044444444444444444,
+    "first_value": 0.9016666666666667,
+    "rows": []
+   }
+  },
+  "v5|35|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9733333333333333,
+    "min": 0.9616666666666667,
+    "max": 0.98
+   },
+   "severe_n": {
+    "mean": 2.6666666666666665,
+    "min": 2.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.039047619047619046,
+    "min": 0.03428571428571429,
+    "max": 0.04285714285714286
+   },
+   "normal": {
+    "mean": 0.022222222222222223,
+    "min": 0.015,
+    "max": 0.035
+   },
+   "first": {
+    "mean": 0.89,
+    "min": 0.8766666666666667,
+    "max": 0.9
+   },
+   "value": {
+    "wrong_exec": 32.0,
+    "e2e_value": 0.9199999999999999,
+    "severe_value_n": 34.666666666666664,
+    "severe_value": 0.057777777777777775,
+    "first_value": 0.8366666666666667,
+    "rows": [
+     {
+      "utterance": "窓を閉め切ったら蒸してきたから冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートが冷えきってるから暖房を強めにして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクの荷物が傷むから冷房を強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話の声が震えるほど寒いから暖房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフ越しの日差しがきついから冷房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "後ろの席の子が寒いと言ってるから後席の暖房を強めて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "ミラーまで曇ってきたからデフロスターを入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "充電が終わるまで待つあいだ冷房を弱くかけて",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 24.0}",
+      "label": "f2|f2,m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトを消して休憩するから静かな音楽を流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 0.67
+     },
+     {
+      "utterance": "窓ガラスの交換でガラス屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"窓ガラスの交換でガラス屋\"}",
+      "label": "set:ガラス屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ライトの電球を買いにホームセンターへ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"球を買いにホームセンター\"}",
+      "label": "set:ホームセンター",
+      "share": 1.0
+     },
+     {
+      "utterance": "鍵を作りに合鍵屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"鍵を作りに合鍵屋\"}",
+      "label": "set:合鍵屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "シートの修理で内装屋に向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"シートの修理で内装屋\"}",
+      "label": "set:内装屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "電話で頼まれた荷物を取りに郵便局へ案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"まれた荷物を取りに郵便局\"}",
+      "label": "set:郵便局",
+      "share": 1.0
+     },
+     {
+      "utterance": "トランクのごみを出しに清掃センターまで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ごみを出しに清掃センター\"}",
+      "label": "set:清掃センター",
+      "share": 1.0
+     },
+     {
+      "utterance": "エンジンの異音を見てもらいに整備工場へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"音を見てもらいに整備工場\"}",
+      "label": "set:整備工場",
+      "share": 1.0
+     },
+     {
+      "utterance": "ワイパーを買いにカー用品店を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ワイパーを買いにカー用品店\"}",
+      "label": "set:カー用品店",
+      "share": 1.0
+     },
+     {
+      "utterance": "サンルーフの点検でディーラーまでナビして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"ルーフの点検でディーラー\"}",
+      "label": "set:ディーラー",
+      "share": 1.0
+     },
+     {
+      "utterance": "バッテリーが心配だから途中で充電スポットに寄るルートにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"だから途中で充電スポット\"}",
+      "label": "way:充電スポット|way:充電スタンド",
+      "share": 1.0
+     },
+     {
+      "utterance": "ドアのへこみを見せに板金屋まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"アのへこみを見せに板金屋\"}",
+      "label": "set:板金屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "ハンドルカバーを受け取りに駅前の店まで案内して",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"バーを受け取りに駅前の店\"}",
+      "label": "set:駅前の店",
+      "share": 1.0
+     },
+     {
+      "utterance": "カメラの修理でカメラ屋を目的地にして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"カメラの修理でカメラ屋\"}",
+      "label": "set:カメラ屋",
+      "share": 1.0
+     },
+     {
+      "utterance": "子どものシートを借りに実家へ向かって",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"どものシートを借りに実家\"}",
+      "label": "set:実家",
+      "share": 0.67
+     },
+     {
+      "utterance": "暖房を入れてくれない",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:heat",
+      "share": 0.67
+     },
+     {
+      "utterance": "後ろの席にも冷房を入れて",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "冷房をもっと強くして",
+      "tool": "control_hvac",
+      "got": "{\"temperature\": 26.0}",
+      "label": "f4",
+      "share": 1.0
+     },
+     {
+      "utterance": "風量を一番小さくして",
+      "tool": "control_hvac",
+      "got": "{\"fan_level\": 7}",
+      "label": "f0|f1",
+      "share": 1.0
+     },
+     {
+      "utterance": "暑いので冷房を入れてください",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:cool",
+      "share": 1.0
+     },
+     {
+      "utterance": "前のガラスが曇ったから取って",
+      "tool": "control_hvac",
+      "got": "{\"mode\": \"auto\"}",
+      "label": "m:defrost",
+      "share": 1.0
+     },
+     {
+      "utterance": "止めた曲を続きから流して",
+      "tool": "control_media",
+      "got": "{\"action\": \"pause\"}",
+      "label": "play",
+      "share": 1.0
+     },
+     {
+      "utterance": "シャッフルで再生して",
+      "tool": "control_media",
+      "got": "{\"action\": \"volume_set\", \"volume\": 40}",
+      "label": "play|ASK",
+      "share": 1.0
+     },
+     {
+      "utterance": "途中でコンビニに寄りたい",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"途中でコンビニ\"}",
+      "label": "way:コンビニ",
+      "share": 1.0
+     },
+     {
+      "utterance": "設定した目的地をなしにして",
+      "tool": "set_navigation",
+      "got": "{\"action\": \"set\", \"destination\": \"なし\"}",
+      "label": "cancel",
+      "share": 1.0
+     }
+    ]
+   }
+  },
+  "v5|35|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9733333333333333,
+    "min": 0.9616666666666667,
+    "max": 0.98
+   },
+   "severe_n": {
+    "mean": 2.6666666666666665,
+    "min": 2.0,
+    "max": 3.0
+   },
+   "over": {
+    "mean": 0.039047619047619046,
+    "min": 0.03428571428571429,
+    "max": 0.04285714285714286
+   },
+   "normal": {
+    "mean": 0.022222222222222223,
+    "min": 0.015,
+    "max": 0.035
+   },
+   "first": {
+    "mean": 0.89,
+    "min": 0.8766666666666667,
+    "max": 0.9
+   },
+   "value": {
+    "wrong_exec": 0.0,
+    "e2e_value": 0.9733333333333333,
+    "severe_value_n": 2.6666666666666665,
+    "severe_value": 0.0044444444444444444,
+    "first_value": 0.89,
+    "rows": []
+   }
+  },
+  "v4|17|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9866666666666667,
+    "min": 0.985,
+    "max": 0.9883333333333333
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.045714285714285714,
+    "min": 0.025714285714285714,
+    "max": 0.06857142857142857
+   },
+   "normal": {
+    "mean": 0.011666666666666667,
+    "min": 0.01,
+    "max": 0.013333333333333334
+   },
+   "first": {
+    "mean": 0.9116666666666666,
+    "min": 0.9,
+    "max": 0.9233333333333333
+   }
+  },
+  "v4|17|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9866666666666667,
+    "min": 0.985,
+    "max": 0.9883333333333333
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.045714285714285714,
+    "min": 0.025714285714285714,
+    "max": 0.06857142857142857
+   },
+   "normal": {
+    "mean": 0.011666666666666667,
+    "min": 0.01,
+    "max": 0.013333333333333334
+   },
+   "first": {
+    "mean": 0.9116666666666666,
+    "min": 0.9,
+    "max": 0.9233333333333333
+   }
+  },
+  "v4|26|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9872222222222223,
+    "min": 0.985,
+    "max": 0.9916666666666667
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.03238095238095238,
+    "min": 0.02857142857142857,
+    "max": 0.04
+   },
+   "normal": {
+    "mean": 0.011111111111111112,
+    "min": 0.006666666666666667,
+    "max": 0.013333333333333334
+   },
+   "first": {
+    "mean": 0.918888888888889,
+    "min": 0.9116666666666666,
+    "max": 0.925
+   }
+  },
+  "v4|26|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9872222222222223,
+    "min": 0.985,
+    "max": 0.9916666666666667
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.03238095238095238,
+    "min": 0.02857142857142857,
+    "max": 0.04
+   },
+   "normal": {
+    "mean": 0.011111111111111112,
+    "min": 0.006666666666666667,
+    "max": 0.013333333333333334
+   },
+   "first": {
+    "mean": 0.918888888888889,
+    "min": 0.9116666666666666,
+    "max": 0.925
+   }
+  },
+  "v4|35|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9794444444444445,
+    "min": 0.975,
+    "max": 0.9816666666666667
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.03428571428571429,
+    "min": 0.02,
+    "max": 0.05142857142857143
+   },
+   "normal": {
+    "mean": 0.01888888888888889,
+    "min": 0.016666666666666666,
+    "max": 0.023333333333333334
+   },
+   "first": {
+    "mean": 0.9105555555555555,
+    "min": 0.9033333333333333,
+    "max": 0.915
+   }
+  },
+  "v4|35|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9794444444444445,
+    "min": 0.975,
+    "max": 0.9816666666666667
+   },
+   "severe_n": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.03428571428571429,
+    "min": 0.02,
+    "max": 0.05142857142857143
+   },
+   "normal": {
+    "mean": 0.01888888888888889,
+    "min": 0.016666666666666666,
+    "max": 0.023333333333333334
+   },
+   "first": {
+    "mean": 0.9105555555555555,
+    "min": 0.9033333333333333,
+    "max": 0.915
+   }
+  },
+  "v3|17|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9829166666666667,
+    "min": 0.98125,
+    "max": 0.985
+   },
+   "severe_n": {
+    "mean": 0.3333333333333333,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.05902777777777778,
+    "min": 0.04583333333333333,
+    "max": 0.07708333333333334
+   },
+   "normal": {
+    "mean": 0.016666666666666666,
+    "min": 0.015,
+    "max": 0.0175
+   },
+   "first": {
+    "mean": 0.90625,
+    "min": 0.895,
+    "max": 0.9125
+   }
+  },
+  "v3|17|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9829166666666667,
+    "min": 0.98125,
+    "max": 0.985
+   },
+   "severe_n": {
+    "mean": 0.3333333333333333,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "over": {
+    "mean": 0.05902777777777778,
+    "min": 0.04583333333333333,
+    "max": 0.07708333333333334
+   },
+   "normal": {
+    "mean": 0.016666666666666666,
+    "min": 0.015,
+    "max": 0.0175
+   },
+   "first": {
+    "mean": 0.90625,
+    "min": 0.895,
+    "max": 0.9125
+   }
+  },
+  "v3|26|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9829166666666667,
+    "min": 0.9825,
+    "max": 0.98375
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.04861111111111111,
+    "min": 0.041666666666666664,
+    "max": 0.05416666666666667
+   },
+   "normal": {
+    "mean": 0.017083333333333336,
+    "min": 0.01625,
+    "max": 0.0175
+   },
+   "first": {
+    "mean": 0.9125,
+    "min": 0.90875,
+    "max": 0.9175
+   }
+  },
+  "v3|26|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9829166666666667,
+    "min": 0.9825,
+    "max": 0.98375
+   },
+   "severe_n": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "over": {
+    "mean": 0.04861111111111111,
+    "min": 0.041666666666666664,
+    "max": 0.05416666666666667
+   },
+   "normal": {
+    "mean": 0.017083333333333336,
+    "min": 0.01625,
+    "max": 0.0175
+   },
+   "first": {
+    "mean": 0.9125,
+    "min": 0.90875,
+    "max": 0.9175
+   }
+  },
+  "v3|35|直す前（P21 の構成）": {
+   "e2e": {
+    "mean": 0.9783333333333334,
+    "min": 0.9675,
+    "max": 0.98375
+   },
+   "severe_n": {
+    "mean": 1.3333333333333333,
+    "min": 1.0,
+    "max": 2.0
+   },
+   "over": {
+    "mean": 0.044444444444444446,
+    "min": 0.03958333333333333,
+    "max": 0.04791666666666667
+   },
+   "normal": {
+    "mean": 0.02,
+    "min": 0.01375,
+    "max": 0.03125
+   },
+   "first": {
+    "mean": 0.9108333333333333,
+    "min": 0.89875,
+    "max": 0.91875
+   }
+  },
+  "v3|35|引数の値を直す（P22）": {
+   "e2e": {
+    "mean": 0.9783333333333334,
+    "min": 0.9675,
+    "max": 0.98375
+   },
+   "severe_n": {
+    "mean": 1.3333333333333333,
+    "min": 1.0,
+    "max": 2.0
+   },
+   "over": {
+    "mean": 0.044444444444444446,
+    "min": 0.03958333333333333,
+    "max": 0.04791666666666667
+   },
+   "normal": {
+    "mean": 0.02,
+    "min": 0.01375,
+    "max": 0.03125
+   },
+   "first": {
+    "mean": 0.9108333333333333,
+    "min": 0.89875,
+    "max": 0.91875
+   }
+  }
+ }
+}

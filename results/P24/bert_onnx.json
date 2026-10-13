@@ -1,0 +1,18 @@
+{
+ "how": "TorchScript の書き出し（opset 17）",
+ "ir_version": 8,
+ "opset": {
+  "ai.onnx": 17
+ },
+ "bytes": 445053625,
+ "md5": "109a7c894f714ea87910e6eda4edbb95",
+ "rows": 1200,
+ "inputs": [
+  "attention_mask",
+  "input_ids",
+  "token_type_ids"
+ ],
+ "onnx_vs_torch_absdiff_max": 5.4036563266190996e-06,
+ "onnx_vs_saved_absdiff_max": 2.2531749204190987e-06,
+ "threshold_flips": 0
+}

@@ -1,0 +1,342 @@
+{
+ "heads": {
+  "17": {
+   "temperature": 1.5,
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.3,
+    "CHAT": 0.5,
+    "REJECT": 0.9993428818592733
+   },
+   "self_check": {
+    "rows": 600,
+    "action_prob_absdiff_max": 0.0,
+    "reject_absdiff_max": 0.0
+   }
+  },
+  "26": {
+   "temperature": 1.55,
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.3,
+    "CHAT": 0.2,
+    "REJECT": 0.9988804533967759
+   },
+   "self_check": {
+    "rows": 600,
+    "action_prob_absdiff_max": 0.0,
+    "reject_absdiff_max": 0.0
+   }
+  }
+ },
+ "dictionary": {
+  "char.bin": {
+   "bytes": 262496,
+   "md5": "92c3e76abbb89274ee95a9b8698e691e"
+  },
+  "matrix.bin": {
+   "bytes": 71544726,
+   "md5": "7506775e39a5326a57b271865e15b156"
+  },
+  "sys_lex.bin": {
+   "bytes": 29782816,
+   "md5": "8e029192ad35043f7b7b813fd391b2c5"
+  },
+  "unk.dic": {
+   "bytes": 5475,
+   "md5": "676479ff4af24ce1f9ece3f3b76bf8ac"
+  },
+  "vocab.txt": {
+   "bytes": 263794,
+   "md5": "1734793b2d54d3bcf83a68a098052168"
+  }
+ },
+ "samples": [
+  {
+   "id": "c6_N_001",
+   "utterance": "暖房をお願い",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"mode\": \"heat\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"mode\": \"heat\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_014",
+   "utterance": "冷房を強めにお願い",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 4}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 4}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_019",
+   "utterance": "暑いから冷房をお願い",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"mode\": \"cool\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"mode\": \"cool\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_034",
+   "utterance": "FMにして",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"play\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"play\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_026",
+   "utterance": "次の曲にしてもらえる",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"next\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"next\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_068",
+   "utterance": "水族館まで案内して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"set\", \"destination\": \"水族館\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"set\", \"destination\": \"水族館\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_069",
+   "utterance": "仙台空港へ向かって",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"set\", \"destination\": \"仙台空港\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"set\", \"destination\": \"仙台空港\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_074",
+   "utterance": "航続距離を表示して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "get_vehicle_status",
+     "args": "{\"item\": \"range\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "get_vehicle_status",
+     "args": "{\"item\": \"range\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_N_130",
+   "utterance": "公園を近くで探して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "search_poi",
+     "args": "{\"query\": \"公園を近くで探して\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "search_poi",
+     "args": "{\"query\": \"公園を近くで探して\"}"
+    }
+   }
+  },
+  {
+   "id": "c6_F_038",
+   "utterance": "もうすぐ春だね",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "雑談",
+     "stage": null,
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "雑談",
+     "stage": null,
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c6_G_004",
+   "utterance": "カメラは",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "規則",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "規則",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c6_G_066",
+   "utterance": "あの店にもう一回行って",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "引数が足りない",
+     "tool": "set_navigation",
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "引数が足りない",
+     "tool": "set_navigation",
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c6_G_076",
+   "utterance": "適当に頼むよ",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "棄却ヘッド",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "棄却ヘッド",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c6_H_033",
+   "utterance": "路肩に停車して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c6_H_040",
+   "utterance": "窓を全部閉めて",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    }
+   }
+  }
+ ],
+ "bert_hi": 0.9943487048149109
+}

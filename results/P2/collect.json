@@ -1,0 +1,20 @@
+{
+ "17": {
+  "run_ms_median": 44.87195301055908,
+  "elapsed_s": 111.0,
+  "h_last_rel_mean_vs_pc": 0.3200490474700928,
+  "h_mean_rel_mean_vs_pc": 0.2836783230304718
+ },
+ "26": {
+  "run_ms_median": 66.46619844436646,
+  "elapsed_s": 132.9,
+  "h_last_rel_mean_vs_pc": 0.3054831922054291,
+  "h_mean_rel_mean_vs_pc": 0.2606973946094513
+ },
+ "35": {
+  "run_ms_median": 88.46132802963257,
+  "elapsed_s": 157.7,
+  "h_last_rel_mean_vs_pc": 0.3241845667362213,
+  "h_mean_rel_mean_vs_pc": 0.2918969690799713
+ }
+}

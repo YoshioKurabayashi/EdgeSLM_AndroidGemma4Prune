@@ -1,0 +1,248 @@
+{"id": "c5_K_000", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "窓を閉め切ったら蒸してきたから冷房を入れて", "label": "m:cool", "expected": [{"mode": "cool"}]}
+{"id": "c5_K_001", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "シートが冷えきってるから暖房を強めにして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_002", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ドアを何度も開けたから車内を冷やし直して", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c5_K_003", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ライトをつける時間で冷えてきたから温度を2度上げて", "label": "t27", "expected": [{"temperature": 27.0}]}
+{"id": "c5_K_004", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "トランクの荷物が傷むから冷房を強くして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_005", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "電話の声が震えるほど寒いから暖房を入れて", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c5_K_006", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ワイパーを動かすほどの雨で曇ったから曇りを取って", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c5_K_007", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ハンドルを握る手が冷たいから温度を上げて", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c5_K_008", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "サンルーフ越しの日差しがきついから冷房を強めて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_009", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "後ろの席の子が寒いと言ってるから後席の暖房を強めて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_010", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "鍵を開けたら車内がむっとしたから風量を上げて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_011", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "エンジンが温まる前で寒いから暖房を全開にして", "label": "f7", "expected": [{"fan_level": 7}]}
+{"id": "c5_K_012", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ミラーまで曇ってきたからデフロスターを入れて", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c5_K_013", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "助手席の窓側が暑いから助手席の温度を下げて", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c5_K_014", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "充電が終わるまで待つあいだ冷房を弱くかけて", "label": "f2|f2,m:cool", "expected": [{"fan_level": 2}, {"fan_level": 2, "mode": "cool"}]}
+{"id": "c5_K_015", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "シートベルトをしたら暑くなったから風を強くして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_016", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "荷物を積んだら汗をかいたから冷房を23度にして", "label": "t23|t23,m:cool", "expected": [{"temperature": 23.0}, {"temperature": 23.0, "mode": "cool"}]}
+{"id": "c5_K_017", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "窓を開けるほどじゃないから風量を少し上げて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_K_018", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "ドアを閉めたらこもるから風を出して", "label": "ASK", "expected": ["ASK"]}
+{"id": "c5_K_019", "set": "v5", "category": "K", "tool": "control_hvac", "utterance": "運転席の足元が寒いから運転席の温度を上げて", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c5_K_020", "set": "v5", "category": "K", "tool": "control_media", "utterance": "電話がかかってきそうだから音楽を一時停止して", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c5_K_021", "set": "v5", "category": "K", "tool": "control_media", "utterance": "窓を開けて走るから音量を上げて", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c5_K_022", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ドアを開けるときはうるさいから音を下げて", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c5_K_023", "set": "v5", "category": "K", "tool": "control_media", "utterance": "シートで寝てる子がいるから曲を止めて", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c5_K_024", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ライトを消して休憩するから静かな音楽を流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_K_025", "set": "v5", "category": "K", "tool": "control_media", "utterance": "トランクの整理が終わったから音楽を再開して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_K_026", "set": "v5", "category": "K", "tool": "control_media", "utterance": "鍵を閉める前に音楽を止めて", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c5_K_027", "set": "v5", "category": "K", "tool": "control_media", "utterance": "エンジンをかけたから音楽をかけて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_K_028", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ワイパーの音が大きいからボリュームを上げて", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c5_K_029", "set": "v5", "category": "K", "tool": "control_media", "utterance": "サンルーフを開けたから音を大きめにして", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c5_K_030", "set": "v5", "category": "K", "tool": "control_media", "utterance": "スマホをつないだからスマホの曲を再生して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_K_031", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ナビの声とかぶるから音楽の音量を10にして", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c5_K_032", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ミラー越しに子どもが飽きてるから次の曲にして", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c5_K_033", "set": "v5", "category": "K", "tool": "control_media", "utterance": "ハンドルから手が離せないから曲を飛ばして", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c5_K_034", "set": "v5", "category": "K", "tool": "control_media", "utterance": "充電中は暇だからラジオをつけて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_K_035", "set": "v5", "category": "K", "tool": "control_media", "utterance": "カメラの警告音が聞こえるように音を消して", "label": "mute|pause", "expected": [{"action": "mute"}, {"action": "pause"}]}
+{"id": "c5_K_036", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "窓ガラスの交換でガラス屋まで案内して", "label": "set:ガラス屋", "expected": [{"action": "set", "destination": "ガラス屋"}]}
+{"id": "c5_K_037", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "ライトの電球を買いにホームセンターへ向かって", "label": "set:ホームセンター", "expected": [{"action": "set", "destination": "ホームセンター"}]}
+{"id": "c5_K_038", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "鍵を作りに合鍵屋まで案内して", "label": "set:合鍵屋", "expected": [{"action": "set", "destination": "合鍵屋"}]}
+{"id": "c5_K_039", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "シートの修理で内装屋に向かって", "label": "set:内装屋", "expected": [{"action": "set", "destination": "内装屋"}]}
+{"id": "c5_K_040", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "電話で頼まれた荷物を取りに郵便局へ案内して", "label": "set:郵便局", "expected": [{"action": "set", "destination": "郵便局"}]}
+{"id": "c5_K_041", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "トランクのごみを出しに清掃センターまで案内して", "label": "set:清掃センター", "expected": [{"action": "set", "destination": "清掃センター"}]}
+{"id": "c5_K_042", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "エンジンの異音を見てもらいに整備工場へ向かって", "label": "set:整備工場", "expected": [{"action": "set", "destination": "整備工場"}]}
+{"id": "c5_K_043", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "ワイパーを買いにカー用品店を目的地にして", "label": "set:カー用品店", "expected": [{"action": "set", "destination": "カー用品店"}]}
+{"id": "c5_K_044", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "サンルーフの点検でディーラーまでナビして", "label": "set:ディーラー", "expected": [{"action": "set", "destination": "ディーラー"}]}
+{"id": "c5_K_045", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "バッテリーが心配だから途中で充電スポットに寄るルートにして", "label": "way:充電スポット|way:充電スタンド", "expected": [{"action": "add_waypoint", "destination": "充電スポット"}, {"action": "add_waypoint", "destination": "充電スタンド"}]}
+{"id": "c5_K_046", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "ミラーの修理が終わったから工場まで取りに向かって", "label": "set:工場", "expected": [{"action": "set", "destination": "工場"}]}
+{"id": "c5_K_047", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "ドアのへこみを見せに板金屋まで案内して", "label": "set:板金屋", "expected": [{"action": "set", "destination": "板金屋"}]}
+{"id": "c5_K_048", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "スマホを忘れたから会社に戻るルートにして", "label": "set:会社", "expected": [{"action": "set", "destination": "会社"}]}
+{"id": "c5_K_049", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "ハンドルカバーを受け取りに駅前の店まで案内して", "label": "set:駅前の店", "expected": [{"action": "set", "destination": "駅前の店"}]}
+{"id": "c5_K_050", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "カメラの修理でカメラ屋を目的地にして", "label": "set:カメラ屋", "expected": [{"action": "set", "destination": "カメラ屋"}]}
+{"id": "c5_K_051", "set": "v5", "category": "K", "tool": "set_navigation", "utterance": "子どものシートを借りに実家へ向かって", "label": "set:実家", "expected": [{"action": "set", "destination": "実家"}]}
+{"id": "c5_N_000", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "冷房を25度に合わせて", "label": "t25|t25,m:cool", "expected": [{"temperature": 25.0}, {"temperature": 25.0, "mode": "cool"}]}
+{"id": "c5_N_001", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "暖房を入れてくれない", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c5_N_002", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "温度をあと1度下げて", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c5_N_003", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "風を少し強めにして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_N_004", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "エアコンはもう止めていいよ", "label": "m:off", "expected": [{"mode": "off"}]}
+{"id": "c5_N_005", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "車の中を涼しくしてくれる", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c5_N_006", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "暖房を24度でお願い", "label": "t24|t24,m:heat", "expected": [{"temperature": 24.0}, {"temperature": 24.0, "mode": "heat"}]}
+{"id": "c5_N_007", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "風量を3段目にして", "label": "f3", "expected": [{"fan_level": 3}]}
+{"id": "c5_N_008", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "助手席側の温度を2度下げて", "label": "t23", "expected": [{"temperature": 23.0}]}
+{"id": "c5_N_009", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "後ろの席にも冷房を入れて", "label": "m:cool", "expected": [{"mode": "cool"}]}
+{"id": "c5_N_010", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "曇り取りをオフにして", "label": "m:off|m:auto", "expected": [{"mode": "off"}, {"mode": "auto"}]}
+{"id": "c5_N_011", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "エアコンの温度調整をおまかせにして", "label": "m:auto", "expected": [{"mode": "auto"}]}
+{"id": "c5_N_012", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "温度を22度まで下げて", "label": "t22", "expected": [{"temperature": 22.0}]}
+{"id": "c5_N_013", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "暖かくしてほしいな", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c5_N_014", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "冷房をもっと強くして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c5_N_015", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "風量を一番小さくして", "label": "f0|f1", "expected": [{"fan_level": 0}, {"fan_level": 1}]}
+{"id": "c5_N_016", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "運転席側をあと1度暖かくして", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c5_N_017", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "エアコンの温度を27度に上げて", "label": "t27", "expected": [{"temperature": 27.0}]}
+{"id": "c5_N_018", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "冷えるから設定温度を高くして", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c5_N_019", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "暑いので冷房を入れてください", "label": "m:cool", "expected": [{"mode": "cool"}]}
+{"id": "c5_N_020", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "風を止めて", "label": "m:off|f0", "expected": [{"mode": "off"}, {"fan_level": 0}]}
+{"id": "c5_N_021", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "前のガラスが曇ったから取って", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c5_N_022", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "空調を入れ直して", "label": "m:auto", "expected": [{"mode": "auto"}]}
+{"id": "c5_N_023", "set": "v5", "category": "N", "tool": "control_hvac", "utterance": "暖房が効きすぎだから弱くして", "label": "f2|t24", "expected": [{"fan_level": 2}, {"temperature": 24.0}]}
+{"id": "c5_N_024", "set": "v5", "category": "N", "tool": "control_media", "utterance": "何か音楽をお願いできる", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_025", "set": "v5", "category": "N", "tool": "control_media", "utterance": "いまの曲を止めて", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c5_N_026", "set": "v5", "category": "N", "tool": "control_media", "utterance": "次の曲へ送って", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c5_N_027", "set": "v5", "category": "N", "tool": "control_media", "utterance": "ひとつ前の曲を流して", "label": "prev", "expected": [{"action": "previous"}]}
+{"id": "c5_N_028", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音量を16にして", "label": "v16", "expected": [{"action": "volume_set", "volume": 16}]}
+{"id": "c5_N_029", "set": "v5", "category": "N", "tool": "control_media", "utterance": "ボリュームをちょっとだけ絞って", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c5_N_030", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音を4つ上げて", "label": "v16", "expected": [{"action": "volume_set", "volume": 16}]}
+{"id": "c5_N_031", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音をミュートしてくれる", "label": "mute", "expected": [{"action": "mute"}]}
+{"id": "c5_N_032", "set": "v5", "category": "N", "tool": "control_media", "utterance": "消音をやめて", "label": "v12", "expected": [{"action": "volume_set", "volume": 12}]}
+{"id": "c5_N_033", "set": "v5", "category": "N", "tool": "control_media", "utterance": "ラジオに切り替えて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_034", "set": "v5", "category": "N", "tool": "control_media", "utterance": "AM放送を流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_035", "set": "v5", "category": "N", "tool": "control_media", "utterance": "再生をスマホのほうに替えて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_036", "set": "v5", "category": "N", "tool": "control_media", "utterance": "クラシックをかけてほしい", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_037", "set": "v5", "category": "N", "tool": "control_media", "utterance": "落ち着いた曲を流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_038", "set": "v5", "category": "N", "tool": "control_media", "utterance": "曲を最初からかけ直して", "label": "prev|play", "expected": [{"action": "previous"}, {"action": "play"}]}
+{"id": "c5_N_039", "set": "v5", "category": "N", "tool": "control_media", "utterance": "1曲だけスキップして", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c5_N_040", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音量をあとちょっと上げてほしい", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c5_N_041", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音が大きすぎるから小さくして", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c5_N_042", "set": "v5", "category": "N", "tool": "control_media", "utterance": "音楽を少しのあいだ止めて", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c5_N_043", "set": "v5", "category": "N", "tool": "control_media", "utterance": "止めた曲を続きから流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_044", "set": "v5", "category": "N", "tool": "control_media", "utterance": "シャッフルで再生して", "label": "play|ASK", "expected": [{"action": "play"}, "ASK"]}
+{"id": "c5_N_045", "set": "v5", "category": "N", "tool": "control_media", "utterance": "この曲をもう一回かけて", "label": "prev|play", "expected": [{"action": "previous"}, {"action": "play"}]}
+{"id": "c5_N_046", "set": "v5", "category": "N", "tool": "control_media", "utterance": "ボリュームを3まで絞って", "label": "v3", "expected": [{"action": "volume_set", "volume": 3}]}
+{"id": "c5_N_047", "set": "v5", "category": "N", "tool": "control_media", "utterance": "Bluetoothでつないだ曲をかけて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c5_N_048", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "東京ドームまで案内して", "label": "set:東京ドーム", "expected": [{"action": "set", "destination": "東京ドーム"}]}
+{"id": "c5_N_049", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "金沢駅に向かって", "label": "set:金沢駅", "expected": [{"action": "set", "destination": "金沢駅"}]}
+{"id": "c5_N_050", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "自宅への道を案内して", "label": "set:自宅", "expected": [{"action": "set", "destination": "自宅"}]}
+{"id": "c5_N_051", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "会社までナビして", "label": "set:会社", "expected": [{"action": "set", "destination": "会社"}]}
+{"id": "c5_N_052", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "新大阪駅までお願い", "label": "set:新大阪駅", "expected": [{"action": "set", "destination": "新大阪駅"}]}
+{"id": "c5_N_053", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "成田空港を目的地にして", "label": "set:成田空港", "expected": [{"action": "set", "destination": "成田空港"}]}
+{"id": "c5_N_054", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "行き先を京都タワーに変えて", "label": "set:京都タワー", "expected": [{"action": "set", "destination": "京都タワー"}]}
+{"id": "c5_N_055", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "ナビを終わりにして", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c5_N_056", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "ルート案内を取り消して", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c5_N_057", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "高速を使って案内して", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c5_N_058", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "下道だけで行くルートにして", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c5_N_059", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "別のルートに変えて", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c5_N_060", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "途中でコンビニに寄りたい", "label": "way:コンビニ", "expected": [{"action": "add_waypoint", "destination": "コンビニ"}]}
+{"id": "c5_N_061", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "経由地にサービスエリアを入れて", "label": "way:サービスエリア", "expected": [{"action": "add_waypoint", "destination": "サービスエリア"}]}
+{"id": "c5_N_062", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "実家へのルート案内をお願い", "label": "set:実家", "expected": [{"action": "set", "destination": "実家"}]}
+{"id": "c5_N_063", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "県庁まで連れてって", "label": "set:県庁", "expected": [{"action": "set", "destination": "県庁"}]}
+{"id": "c5_N_064", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "博多駅へナビを頼む", "label": "set:博多駅", "expected": [{"action": "set", "destination": "博多駅"}]}
+{"id": "c5_N_065", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "設定した目的地をなしにして", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c5_N_066", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "空いてる道で行って", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c5_N_067", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "お金のかからない道で案内して", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c5_N_068", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "美術館まで案内して", "label": "set:美術館", "expected": [{"action": "set", "destination": "美術館"}]}
+{"id": "c5_N_069", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "札幌駅に向かってほしい", "label": "set:札幌駅", "expected": [{"action": "set", "destination": "札幌駅"}]}
+{"id": "c5_N_070", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "クリニックを目的地にセットして", "label": "set:クリニック", "expected": [{"action": "set", "destination": "クリニック"}]}
+{"id": "c5_N_071", "set": "v5", "category": "N", "tool": "set_navigation", "utterance": "早く着くルートに変えて", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_K_000", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "窓を閉めても暑いので冷房を強くしてください", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_K_001", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "シートが冷たくて震えるから暖房を入れてよ", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c6_K_002", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ドアを開けたら熱気が入ってきたから温度を下げて", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_K_003", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ライトが要る時間になって冷えたから暖房を強くして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_K_004", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "トランクのアイスが溶けそうだから冷房を最大にして", "label": "f7", "expected": [{"fan_level": 7}]}
+{"id": "c6_K_005", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "電話中に寒くなってきたから温度を1度上げて", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c6_K_006", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ワイパーが追いつかない雨でガラスが曇るから曇りを取って", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c6_K_007", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ハンドルが握れないほど熱いので車内を冷やして", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_K_008", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "サンルーフを閉めたら蒸してきたので風量を上げて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_K_009", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "後ろのシートの子が暑がってるので後席の温度を下げて", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_K_010", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "鍵を探してたら体が冷えたから暖房をつけて", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c6_K_011", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "エンジンを切るからその前に冷房を止めといて", "label": "m:off", "expected": [{"mode": "off"}]}
+{"id": "c6_K_012", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ミラーまで曇るくらいじめじめするので曇り止めを入れて", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c6_K_013", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "助手席の窓から日が当たるから助手席を2度下げて", "label": "t23", "expected": [{"temperature": 23.0}]}
+{"id": "c6_K_014", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "充電してるあいだ寒いから暖房を22度にして", "label": "t22|t22,m:heat", "expected": [{"temperature": 22.0}, {"temperature": 22.0, "mode": "heat"}]}
+{"id": "c6_K_015", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "チャイルドシートの子が汗をかいてるから冷房を強めて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_K_016", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "荷物を降ろすのに汗だくだから冷房を強くして", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_K_017", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "窓の結露がひどいから前の曇りを取って", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c6_K_018", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "ドアのすき間から冷気が来るから風量を下げて", "label": "f2", "expected": [{"fan_level": 2}]}
+{"id": "c6_K_019", "set": "v6", "category": "K", "tool": "control_hvac", "utterance": "運転席の足元が暑いから運転席の温度を下げて", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_K_020", "set": "v6", "category": "K", "tool": "control_media", "utterance": "電話に出るので曲を止めてください", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c6_K_021", "set": "v6", "category": "K", "tool": "control_media", "utterance": "窓を全開にしたら音が負けるのでボリュームを足して", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_K_022", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ドアを閉めたから音楽を再開して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_K_023", "set": "v6", "category": "K", "tool": "control_media", "utterance": "シートを倒して休むから音を小さくして", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c6_K_024", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ライトを消したら眠くなるから元気な曲をかけて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_K_025", "set": "v6", "category": "K", "tool": "control_media", "utterance": "トランクを開けてるあいだ音楽を止めておいて", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c6_K_026", "set": "v6", "category": "K", "tool": "control_media", "utterance": "鍵を閉めたら静かになったからラジオをつけて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_K_027", "set": "v6", "category": "K", "tool": "control_media", "utterance": "エンジン音が響くからボリュームを上げて", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_K_028", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ワイパーの音で聞こえないから音量を20にして", "label": "v20", "expected": [{"action": "volume_set", "volume": 20}]}
+{"id": "c6_K_029", "set": "v6", "category": "K", "tool": "control_media", "utterance": "サンルーフを開けたら風の音がうるさいから音を上げて", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_K_030", "set": "v6", "category": "K", "tool": "control_media", "utterance": "スマホをペアリングしたからそっちの音楽に切り替えて", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_K_031", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ナビの声が聞こえないから音楽を小さくして", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c6_K_032", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ミラーを見たら後ろの子が寝てたから音を消して", "label": "mute|pause", "expected": [{"action": "mute"}, {"action": "pause"}]}
+{"id": "c6_K_033", "set": "v6", "category": "K", "tool": "control_media", "utterance": "ハンドルのボタンが効かないから次の曲にして", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c6_K_034", "set": "v6", "category": "K", "tool": "control_media", "utterance": "充電が終わるまで何か音楽を流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_K_035", "set": "v6", "category": "K", "tool": "control_media", "utterance": "カメラの音が鳴ったから音楽を一時停止して", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c6_K_036", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "窓の修理を頼みにガラス店まで案内して", "label": "set:ガラス店", "expected": [{"action": "set", "destination": "ガラス店"}]}
+{"id": "c6_K_037", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "ライトが点かないからカー用品店に向かって", "label": "set:カー用品店", "expected": [{"action": "set", "destination": "カー用品店"}]}
+{"id": "c6_K_038", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "鍵をなくしたからディーラーまで案内して", "label": "set:ディーラー", "expected": [{"action": "set", "destination": "ディーラー"}]}
+{"id": "c6_K_039", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "シートを積みに実家へ向かって", "label": "set:実家", "expected": [{"action": "set", "destination": "実家"}]}
+{"id": "c6_K_040", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "電話で呼ばれたので会社まで案内して", "label": "set:会社", "expected": [{"action": "set", "destination": "会社"}]}
+{"id": "c6_K_041", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "トランクの荷物を届けに駅まで案内して", "label": "set:駅", "expected": [{"action": "set", "destination": "駅"}]}
+{"id": "c6_K_042", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "エンジンの調子が悪いから整備工場を目的地にして", "label": "set:整備工場", "expected": [{"action": "set", "destination": "整備工場"}]}
+{"id": "c6_K_043", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "ワイパーを替えたいからガソリンスタンドに寄るルートにして", "label": "way:ガソリンスタンド", "expected": [{"action": "add_waypoint", "destination": "ガソリンスタンド"}]}
+{"id": "c6_K_044", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "サンルーフが閉まらないから修理工場へ向かって", "label": "set:修理工場", "expected": [{"action": "set", "destination": "修理工場"}]}
+{"id": "c6_K_045", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "充電が足りないので充電スタンドを経由地に追加して", "label": "way:充電スタンド", "expected": [{"action": "add_waypoint", "destination": "充電スタンド"}]}
+{"id": "c6_K_046", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "ミラーを割ったので板金屋を目的地にして", "label": "set:板金屋", "expected": [{"action": "set", "destination": "板金屋"}]}
+{"id": "c6_K_047", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "ドアをぶつけたから修理工場まで案内して", "label": "set:修理工場", "expected": [{"action": "set", "destination": "修理工場"}]}
+{"id": "c6_K_048", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "スマホを買い替えたいからショッピングモールに向かって", "label": "set:ショッピングモール", "expected": [{"action": "set", "destination": "ショッピングモール"}]}
+{"id": "c6_K_049", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "ハンドルがぶれるからタイヤ屋まで案内して", "label": "set:タイヤ屋", "expected": [{"action": "set", "destination": "タイヤ屋"}]}
+{"id": "c6_K_050", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "カメラを忘れたから自宅に戻るルートにして", "label": "set:自宅", "expected": [{"action": "set", "destination": "自宅"}]}
+{"id": "c6_K_051", "set": "v6", "category": "K", "tool": "set_navigation", "utterance": "チャイルドシートを返しに営業所まで案内して", "label": "set:営業所", "expected": [{"action": "set", "destination": "営業所"}]}
+{"id": "c6_N_000", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "冷房を26度に設定してください", "label": "t26|t26,m:cool", "expected": [{"temperature": 26.0}, {"temperature": 26.0, "mode": "cool"}]}
+{"id": "c6_N_001", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "暖房をお願い", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c6_N_002", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "あと2度ほど温度を上げてもらえますか", "label": "t27", "expected": [{"temperature": 27.0}]}
+{"id": "c6_N_003", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "風の強さを少し落としてくれる", "label": "f2", "expected": [{"fan_level": 2}]}
+{"id": "c6_N_004", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "エアコンはもう切ってもらって大丈夫です", "label": "m:off", "expected": [{"mode": "off"}]}
+{"id": "c6_N_005", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "涼しくしてほしいんだけど", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_N_006", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "暖房を25度にしてほしい", "label": "t25|t25,m:heat", "expected": [{"temperature": 25.0}, {"temperature": 25.0, "mode": "heat"}]}
+{"id": "c6_N_007", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "風量を5にしてください", "label": "f5", "expected": [{"fan_level": 5}]}
+{"id": "c6_N_008", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "助手席の温度を1度下げてほしい", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_N_009", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "後部座席の冷房を強めて", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_N_010", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "デフロスターを入れてください", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c6_N_011", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "エアコンをオートにして", "label": "m:auto", "expected": [{"mode": "auto"}]}
+{"id": "c6_N_012", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "車内は24度に合わせてもらえますか", "label": "t24", "expected": [{"temperature": 24.0}]}
+{"id": "c6_N_013", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "気持ち暖かめにしてもらえる", "label": "t26", "expected": [{"temperature": 26.0}]}
+{"id": "c6_N_014", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "冷房を強めにお願い", "label": "f4", "expected": [{"fan_level": 4}]}
+{"id": "c6_N_015", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "風をいちばん強くしてください", "label": "f7", "expected": [{"fan_level": 7}]}
+{"id": "c6_N_016", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "運転席だけ2度下げて", "label": "t23", "expected": [{"temperature": 23.0}]}
+{"id": "c6_N_017", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "温度を28度まで上げて", "label": "t28", "expected": [{"temperature": 28.0}]}
+{"id": "c6_N_018", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "寒いので暖房を入れてください", "label": "m:heat", "expected": [{"mode": "heat"}]}
+{"id": "c6_N_019", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "暑いから冷房をお願い", "label": "m:cool", "expected": [{"mode": "cool"}]}
+{"id": "c6_N_020", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "エアコンの風を止めて", "label": "m:off|f0", "expected": [{"mode": "off"}, {"fan_level": 0}]}
+{"id": "c6_N_021", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "ガラスの曇りを取ってください", "label": "m:defrost", "expected": [{"mode": "defrost"}]}
+{"id": "c6_N_022", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "エアコンのスイッチを入れてもらえますか", "label": "m:auto", "expected": [{"mode": "auto"}]}
+{"id": "c6_N_023", "set": "v6", "category": "N", "tool": "control_hvac", "utterance": "暖房は控えめでお願い", "label": "f2", "expected": [{"fan_level": 2}]}
+{"id": "c6_N_024", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音楽をかけてください", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_025", "set": "v6", "category": "N", "tool": "control_media", "utterance": "曲をいったん止めてもらえますか", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c6_N_026", "set": "v6", "category": "N", "tool": "control_media", "utterance": "次の曲にしてもらえる", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c6_N_027", "set": "v6", "category": "N", "tool": "control_media", "utterance": "一曲ぶん戻ってもらえる", "label": "prev", "expected": [{"action": "previous"}]}
+{"id": "c6_N_028", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音の大きさは14でお願いします", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_N_029", "set": "v6", "category": "N", "tool": "control_media", "utterance": "ボリュームを少し落としてもらえますか", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c6_N_030", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音を2つ上げてくれる", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_N_031", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音を消音にしてもらえますか", "label": "mute", "expected": [{"action": "mute"}]}
+{"id": "c6_N_032", "set": "v6", "category": "N", "tool": "control_media", "utterance": "消音を取りやめて音を戻して", "label": "v12", "expected": [{"action": "volume_set", "volume": 12}]}
+{"id": "c6_N_033", "set": "v6", "category": "N", "tool": "control_media", "utterance": "ラジオをつけてください", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_034", "set": "v6", "category": "N", "tool": "control_media", "utterance": "FMにして", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_035", "set": "v6", "category": "N", "tool": "control_media", "utterance": "スマホの音楽を流してほしい", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_036", "set": "v6", "category": "N", "tool": "control_media", "utterance": "ジャズの曲を何か流してもらえますか", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_037", "set": "v6", "category": "N", "tool": "control_media", "utterance": "明るい曲を流してほしい", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_038", "set": "v6", "category": "N", "tool": "control_media", "utterance": "この曲を最初から流して", "label": "prev|play", "expected": [{"action": "previous"}, {"action": "play"}]}
+{"id": "c6_N_039", "set": "v6", "category": "N", "tool": "control_media", "utterance": "2曲先まで飛ばしてください", "label": "next", "expected": [{"action": "next"}]}
+{"id": "c6_N_040", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音量をちょっと上げてください", "label": "v14", "expected": [{"action": "volume_set", "volume": 14}]}
+{"id": "c6_N_041", "set": "v6", "category": "N", "tool": "control_media", "utterance": "音が大きいので下げてください", "label": "v10", "expected": [{"action": "volume_set", "volume": 10}]}
+{"id": "c6_N_042", "set": "v6", "category": "N", "tool": "control_media", "utterance": "再生を止めてください", "label": "pause", "expected": [{"action": "pause"}]}
+{"id": "c6_N_043", "set": "v6", "category": "N", "tool": "control_media", "utterance": "続きから再生してほしい", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_044", "set": "v6", "category": "N", "tool": "control_media", "utterance": "シャッフル再生にして", "label": "play|ASK", "expected": [{"action": "play"}, "ASK"]}
+{"id": "c6_N_045", "set": "v6", "category": "N", "tool": "control_media", "utterance": "同じ曲をリピートして", "label": "play|ASK", "expected": [{"action": "play"}, "ASK"]}
+{"id": "c6_N_046", "set": "v6", "category": "N", "tool": "control_media", "utterance": "ボリュームを一番小さくして", "label": "v0", "expected": [{"action": "volume_set", "volume": 0}]}
+{"id": "c6_N_047", "set": "v6", "category": "N", "tool": "control_media", "utterance": "USBに入れてある曲を流して", "label": "play", "expected": [{"action": "play"}]}
+{"id": "c6_N_048", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "東京スカイツリーまで案内してください", "label": "set:東京スカイツリー", "expected": [{"action": "set", "destination": "東京スカイツリー"}]}
+{"id": "c6_N_049", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "京都駅に向かってください", "label": "set:京都駅", "expected": [{"action": "set", "destination": "京都駅"}]}
+{"id": "c6_N_050", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "自宅までの道案内をお願いできる", "label": "set:自宅", "expected": [{"action": "set", "destination": "自宅"}]}
+{"id": "c6_N_051", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "職場までナビしてください", "label": "set:職場", "expected": [{"action": "set", "destination": "職場"}]}
+{"id": "c6_N_052", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "品川駅までお願いします", "label": "set:品川駅", "expected": [{"action": "set", "destination": "品川駅"}]}
+{"id": "c6_N_053", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "関西空港を目的地にしてください", "label": "set:関西空港", "expected": [{"action": "set", "destination": "関西空港"}]}
+{"id": "c6_N_054", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "目的地を名古屋駅に変更して", "label": "set:名古屋駅", "expected": [{"action": "set", "destination": "名古屋駅"}]}
+{"id": "c6_N_055", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "ナビはもう終わりにしてください", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c6_N_056", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "案内をやめてください", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c6_N_057", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "高速優先のルートにして", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_N_058", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "一般道で案内してください", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_N_059", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "いまとは違う道順で案内して", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_N_060", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "途中でガソリンスタンドに寄りたい", "label": "way:ガソリンスタンド", "expected": [{"action": "add_waypoint", "destination": "ガソリンスタンド"}]}
+{"id": "c6_N_061", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "経由地にコンビニを追加してください", "label": "way:コンビニ", "expected": [{"action": "add_waypoint", "destination": "コンビニ"}]}
+{"id": "c6_N_062", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "実家まで案内をお願い", "label": "set:実家", "expected": [{"action": "set", "destination": "実家"}]}
+{"id": "c6_N_063", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "市民病院まで連れて行って", "label": "set:市民病院", "expected": [{"action": "set", "destination": "市民病院"}]}
+{"id": "c6_N_064", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "広島駅までナビをお願いします", "label": "set:広島駅", "expected": [{"action": "set", "destination": "広島駅"}]}
+{"id": "c6_N_065", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "設定した目的地を取り消してください", "label": "cancel", "expected": [{"action": "cancel"}]}
+{"id": "c6_N_066", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "渋滞を避けて案内して", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_N_067", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "有料の道は通らずに行けるルートにして", "label": "reroute", "expected": [{"action": "reroute"}]}
+{"id": "c6_N_068", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "水族館まで案内して", "label": "set:水族館", "expected": [{"action": "set", "destination": "水族館"}]}
+{"id": "c6_N_069", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "仙台空港へ向かって", "label": "set:仙台空港", "expected": [{"action": "set", "destination": "仙台空港"}]}
+{"id": "c6_N_070", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "郵便局を目的地に設定してください", "label": "set:郵便局", "expected": [{"action": "set", "destination": "郵便局"}]}
+{"id": "c6_N_071", "set": "v6", "category": "N", "tool": "set_navigation", "utterance": "最短ルートで案内して", "label": "reroute", "expected": [{"action": "reroute"}]}
