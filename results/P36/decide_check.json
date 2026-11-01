@@ -1,0 +1,120 @@
+{
+ "layers": {
+  "v10|17": {
+   "seed": 17,
+   "kpi": {
+    "e2e": 0.9683333333333334,
+    "first": 0.9,
+    "severe_n": 2.0,
+    "normal": 0.028333333333333332,
+    "over": 0.04285714285714286
+   },
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.4,
+    "CHAT": 0.2,
+    "REJECT": 0.9987672471908201
+   },
+   "bert_hi": 0.9943487048149109,
+   "classes": [
+    "CHAT",
+    "TOOL_get_vehicle_status",
+    "TOOL_search_poi",
+    "TOOL_control_hvac",
+    "TOOL_control_media",
+    "TOOL_set_navigation",
+    "TOOL_capture_camera",
+    "TOOL_get_media_info",
+    "TOOL_search_vehicle_manual"
+   ],
+   "mismatch": 0
+  },
+  "v10|26": {
+   "seed": 29,
+   "kpi": {
+    "e2e": 0.9766666666666667,
+    "first": 0.9166666666666666,
+    "severe_n": 4.0,
+    "normal": 0.016666666666666666,
+    "over": 0.037142857142857144
+   },
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.3,
+    "CHAT": 0.2,
+    "REJECT": 0.9978797447687231
+   },
+   "bert_hi": 0.9943487048149109,
+   "classes": [
+    "CHAT",
+    "TOOL_get_vehicle_status",
+    "TOOL_search_poi",
+    "TOOL_control_hvac",
+    "TOOL_control_media",
+    "TOOL_set_navigation",
+    "TOOL_capture_camera",
+    "TOOL_get_media_info",
+    "TOOL_search_vehicle_manual"
+   ],
+   "mismatch": 0
+  },
+  "v9|17": {
+   "seed": 17,
+   "kpi": {
+    "e2e": 0.98,
+    "first": 0.9166666666666666,
+    "severe_n": 0.0,
+    "normal": 0.02,
+    "over": 0.03428571428571429
+   },
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.4,
+    "CHAT": 0.2,
+    "REJECT": 0.9987672471908201
+   },
+   "bert_hi": 0.9943487048149109,
+   "classes": [
+    "CHAT",
+    "TOOL_get_vehicle_status",
+    "TOOL_search_poi",
+    "TOOL_control_hvac",
+    "TOOL_control_media",
+    "TOOL_set_navigation",
+    "TOOL_capture_camera",
+    "TOOL_get_media_info",
+    "TOOL_search_vehicle_manual"
+   ],
+   "mismatch": 0
+  },
+  "v9|26": {
+   "seed": 29,
+   "kpi": {
+    "e2e": 0.99,
+    "first": 0.9266666666666666,
+    "severe_n": 0.0,
+    "normal": 0.01,
+    "over": 0.03428571428571429
+   },
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.3,
+    "CHAT": 0.2,
+    "REJECT": 0.9978797447687231
+   },
+   "bert_hi": 0.9943487048149109,
+   "classes": [
+    "CHAT",
+    "TOOL_get_vehicle_status",
+    "TOOL_search_poi",
+    "TOOL_control_hvac",
+    "TOOL_control_media",
+    "TOOL_set_navigation",
+    "TOOL_capture_camera",
+    "TOOL_get_media_info",
+    "TOOL_search_vehicle_manual"
+   ],
+   "mismatch": 0
+  }
+ }
+}

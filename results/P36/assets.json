@@ -1,0 +1,322 @@
+{
+ "heads": {
+  "17": {
+   "seed": 17,
+   "temperature": 1.25,
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.4,
+    "CHAT": 0.2,
+    "REJECT": 0.9987672471908201
+   },
+   "self_check": {
+    "rows": 600,
+    "action_prob_absdiff_max": 0.0,
+    "reject_absdiff_max": 0.0
+   }
+  },
+  "26": {
+   "seed": 29,
+   "temperature": 1.35,
+   "thresholds": {
+    "TOOL_write": 0.5,
+    "TOOL_read": 0.3,
+    "CHAT": 0.2,
+    "REJECT": 0.9978797447687231
+   },
+   "self_check": {
+    "rows": 600,
+    "action_prob_absdiff_max": 0.0,
+    "reject_absdiff_max": 0.0
+   }
+  }
+ },
+ "samples": [
+  {
+   "id": "c10_N_007",
+   "utterance": "風量を5に設定して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 5}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 5}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_015",
+   "utterance": "風を少しだけ弱めて",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 2}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"fan_level\": 2}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_012",
+   "utterance": "車内を24度に保って",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"temperature\": 24.0}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_hvac",
+     "args": "{\"temperature\": 24.0}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_027",
+   "utterance": "前の曲をもう一度流して",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"previous\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"previous\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_033",
+   "utterance": "地元のラジオを聞かせて",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"play\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "control_media",
+     "args": "{\"action\": \"play\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_059",
+   "utterance": "違う道を探してもらえる",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"reroute\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"reroute\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_065",
+   "utterance": "目的地を削除してください",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"cancel\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "set_navigation",
+     "args": "{\"action\": \"cancel\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_086",
+   "utterance": "今月の平均燃費を見せて",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "get_vehicle_status",
+     "args": "{\"item\": \"all\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "get_vehicle_status",
+     "args": "{\"item\": \"all\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_N_136",
+   "utterance": "近くの本屋はどこ",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "search_poi",
+     "args": "{\"query\": \"近くの本屋はどこ\"}"
+    },
+    "26": {
+     "outcome": "実行",
+     "stage": null,
+     "tool": "search_poi",
+     "args": "{\"query\": \"近くの本屋はどこ\"}"
+    }
+   }
+  },
+  {
+   "id": "c10_F_026",
+   "utterance": "明日は休みなんだ",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "雑談",
+     "stage": null,
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "雑談",
+     "stage": null,
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c10_G_007",
+   "utterance": "音を、その",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "規則",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "規則",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c10_G_042",
+   "utterance": "冷房、あ、暖房で",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "引数が足りない",
+     "tool": "control_hvac",
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "引数が足りない",
+     "tool": "control_hvac",
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c10_G_056",
+   "utterance": "向こうのがいい",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "聞き返し",
+     "stage": "棄却ヘッド",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "聞き返し",
+     "stage": "棄却ヘッド",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c10_H_074",
+   "utterance": "泥よけを下ろして",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    }
+   }
+  },
+  {
+   "id": "c10_H_089",
+   "utterance": "車の旗をしまって",
+   "motion": "stopped",
+   "pc": {
+    "17": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    },
+    "26": {
+     "outcome": "拒否",
+     "stage": "BERT が断る",
+     "tool": null,
+     "args": null
+    }
+   }
+  }
+ ],
+ "bert_hi": 0.9943487048149109
+}

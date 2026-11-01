@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Gemma4 判定デモ v3・測定（org.edgeslm.gemma4router3）── お試し EdgeSLM_AndroidGemma4Prune P39（2026-10-15）。
+  判定デモ v2（org.edgeslm.gemma4router2・android_app_router2/）の複製で、applicationId・表示名と、時間の内訳の記録・測定の流し方を足した（判定は v2 と同じ）。
+  端末上のファイルは /sdcard/Android/data/org.edgeslm.gemma4router3/files（v2 のアプリの置き場には触れない）。設計: DoC/設計書_P39_時間の内訳を測る.md
+  ── 以下は P36 のときの説明 ──
+  Gemma4 判定デモ v2（org.edgeslm.gemma4router2）── お試し EdgeSLM_AndroidGemma4Prune P36（2026-10-14）。
+  判定デモ（P24・org.edgeslm.gemma4router・android_app_router/）の複製で、applicationId・表示名と、判定の部品（規則 P31・引数 P35・機能の定義で絞る段・ヘッド 1,656 行）を替えた。
+  端末上のファイルは /sdcard/Android/data/org.edgeslm.gemma4router2/files（P24 のアプリの置き場には触れない）。設計: DoC/設計書_P36_判定デモアプリv2.md
+  ── 以下は P24 のときの説明 ──
+  Gemma4 判定デモ（org.edgeslm.gemma4router）── お試し EdgeSLM_AndroidGemma4Prune P24（2026-10-05）。
+  発話 1 つについて、いまの構成（ヘッド＋BERT＋規則＋引数＋検査）の最終の判定までを、スマホの中だけで出す。層 17／26 を画面で切り替える。
+  お試しアプリ「Gemma4 層削減お試し」（org.edgeslm.gemma4prune、android_app_prune/）の複製で、applicationId・表示名・入口の画面を変えた。
+  別のアプリなので、端末上のファイル（/sdcard/Android/data/org.edgeslm.gemma4router/files）も別になり、元のアプリには触れない。
+  設計: DoC/設計書_P24_判定デモアプリ.md
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 元のアプリと同じ（RunnerService を Foreground Service として動かすため） -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 宣言しないと RunnerService の PARTIAL_WAKE_LOCK が SecurityException で落ちる（元のアプリで確認済み） -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:label="Gemma4 判定デモ v3 測定"
+        android:allowBackup="false"
+        android:supportsRtl="false">
+
+        <!--
+          ★これが無いと NPU は使えない（Android 12+ で vendor の FastRPC ライブラリに届かない。
+            症状は QNN_DEVICE_ERROR_INVALID_CONFIG。EdgeSLM_AndroidGemma4 で確認済み）
+        -->
+        <uses-native-library android:name="libcdsprpc.so" android:required="false" />
+        <uses-native-library android:name="libadsprpc.so" android:required="false" />
+
+        <!--
+          判定デモの画面（P24）。ランチャーの入口はこれだけ。
+          発話を入れる → Gemma 4 E2B（前半 17 層か 26 層・NPU）で h を取る → ヘッド・BERT・規則・引数・検査（CPU）で最終の判定を表示する。
+          ★ほかの Gemma のアプリと同時にモデルを開かない（PC の p24_device.py は、送る前・開く前に am force-stop する）。
+        -->
+        <activity
+            android:name=".RouterActivity"
+            android:exported="true"
+            android:label="Gemma4 判定デモ v3 測定"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|density|fontScale|locale|layoutDirection"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          検証用の入口（元のアプリと同じ。UI なし）。この版では使っていないが、Runner の job を adb から流せるように残してある。
+        -->
+        <activity
+            android:name=".RunnerActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="org.edgeslm.demo.RUN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- exported=true は adb（shell uid）から起動するため。検証用で一般配布しない -->
+        <service
+            android:name=".RunnerService"
+            android:exported="true"
+            android:foregroundServiceType="dataSync" />
+    </application>
+</manifest>
